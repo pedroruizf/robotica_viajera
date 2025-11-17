@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-node-20251116150629QUKFAF">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v3.0.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Reto 4 Colores y mando IR | Robótica STEAM Viajera</title>
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"> </script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css">
+<script src="../theme/default.js"> </script><link rel="stylesheet" href="../theme/content.css">
+<header>
+  
+  <img src="files/tmp/2025/11/15/20251115183913RLUZEA/file_manager/parque-de-las-ciencias-granada-logo.png" alt="Logo del parque"></header>
+</head>
+<body class="exe-export exe-web-site" lang="es">
+<script>document.body.className+=" js"</script><div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav"> <ul> <li class="current-page-parent"> <a href="../index.html" class="main-node daddy">Retos Maletas Viajeras</a><ul> <li> <a href="../html/reto-1-multitarea.html" class="no-ch">Reto 1 Multitarea</a>
+</li>
+<li> <a href="../html/reto-2-datalogger-y-graficado.html" class="no-ch">Reto 2 Datalogger y graficado</a>
+</li>
+<li> <a href="../html/reto-3-humedad-y-led-rgb.html" class="no-ch">Reto 3 Humedad y led RGB</a>
+</li>
+<li class="active"> <a href="../html/reto-4-colores-y-mando-ir.html" class="active no-ch">Reto 4 Colores y mando IR</a>
+</li>
+<li> <a href="../html/reto-5-melodias-rttl-y-mando-ir.html" class="no-ch">Reto 5 Melodias RTTL y mando IR</a>
+</li>
+<li> <a href="../html/reto-6-instrumento-por-luz-theremin.html" class="no-ch">Reto 6 Instrumento por luz (Theremin)</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/control-programado-con-esp32-steamaker-tdr-steam-microblocks.html" class="daddy">Control programado con ESP32 Steamaker + TDR-Steam + Microblocks</a><ul class="other-section"> <li> <a href="../html/elementos-y-tipos.html" class="no-ch">Elementos y tipos</a>
+</li>
+<li> <a href="../html/elemento-de-control.html" class="no-ch">Elemento de control</a>
+</li>
+<li> <a href="../html/microblocks.html" class="daddy">Microblocks</a><ul class="other-section"> <li> <a href="../html/pasos-previos-a-usar-microblocks.html" class="no-ch">Pasos previos a usar microblocks</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/salidas-digitales-y-bucles.html" class="daddy">Salidas digitales y bucles</a><ul class="other-section"> <li> <a href="../html/reto-01-led-parpadeante.html" class="no-ch">Reto 01 Led parpadeante</a>
+</li>
+<li> <a href="../html/reto-02-dos-leds-parpadeantes-alternativos-variables.html" class="no-ch">Reto 02 Dos Leds parpadeantes alternativos. Variables</a>
+</li>
+<li> <a href="../html/reto-03-repeticiones-con-leds-parpadeantes.html" class="no-ch">Reto 03 Repeticiones con leds parpadeantes</a>
+</li>
+<li> <a href="../html/reto-04-notas-musicales-zumbador.html" class="no-ch">Reto 04 Notas musicales (zumbador)</a>
+</li>
+<li> <a href="../html/reto-05-escala-con-zumbador.html" class="no-ch">Reto 05 Escala con zumbador</a>
+</li>
+<li> <a href="../html/reto-06-melodia-con-zumbador.html" class="no-ch">Reto 06 Melodía con zumbador</a>
+</li>
+<li> <a href="../html/reto-07-sos-con-zumbador.html" class="no-ch">Reto 07 SOS con zumbador</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/entradas-digitales-condicionales.html" class="daddy">Entradas digitales. Condicionales</a><ul class="other-section"> <li> <a href="../html/reto-08-encendido-de-led-con-pulsador-condicionales.html" class="no-ch">Reto 08 Encendido de led con pulsador. Condicionales</a>
+</li>
+<li> <a href="../html/reto-09-encendido-y-apagado-de-led-con-dos-pulsadores.html" class="no-ch">Reto 09 Encendido y apagado de led con dos pulsadores</a>
+</li>
+<li> <a href="../html/retos-10-ab-encendido-y-apagado-de-led-con-operadores-logicos.html" class="no-ch">Retos 10 (a,b) Encendido y apagado de led con operadores lógicos</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/salidas-pwm-analogicas.html" class="daddy">Salidas PWM (analógicas)</a><ul class="other-section"> <li> <a href="../html/reto-11-encender-led-rgb.html" class="no-ch">Reto 11 Encender led RGB</a>
+</li>
+<li> <a href="../html/reto-12-intensidad-de-led-rgb-fade-in-fade-out.html" class="no-ch">Reto 12 Intensidad de led RGB (fade in, fade out)</a>
+</li>
+<li> <a href="../html/reto-13-intensidad-de-led-rgb-con-pulsador.html" class="no-ch">Reto 13 Intensidad de led RGB con pulsador</a>
+</li>
+<li> <a href="../html/reto-14-color-aleatorio-con-led-rgb.html" class="no-ch">Reto 14 Color aleatorio con led RGB</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/entradas-analogicas-comunicacion-serie.html" class="daddy">Entradas analógicas. Comunicación serie</a><ul class="other-section"> <li> <a href="../html/reto-15-interruptor-crepuscular-por-umbral-comunicacion-serie.html" class="no-ch">Reto 15 Interruptor crepuscular por umbral. Comunicación serie</a>
+</li>
+<li> <a href="../html/reto-16-interruptor-crepuscular-progresivo.html" class="no-ch">Reto 16 Interruptor crepuscular progresivo</a>
+</li>
+<li> <a href="../html/reto-17-control-de-leds-con-potenciometro.html" class="no-ch">Reto 17 Control de leds con potenciómetro</a>
+</li>
+<li> <a href="../html/reto-18-potenciometro-y-led-rgb.html" class="no-ch">Reto 18 Potenciómetro y led RGB</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/pantalla-lcd-lm35-y-dht11.html" class="daddy">Pantalla LCD, LM35 y DHT11</a><ul class="other-section"> <li> <a href="../html/reto-19-control-de-turno-pulsadores-y-lcd.html" class="no-ch">Reto 19 Control de turno. Pulsadores y LCD</a>
+</li>
+<li> <a href="../html/reto-20-scroll-de-texto.html" class="no-ch">Reto 20 Scroll de texto</a>
+</li>
+<li> <a href="../html/reto-21-temperatura-con-lm35.html" class="no-ch">Reto 21 Temperatura con LM35</a>
+</li>
+<li> <a href="../html/reto-22-temperatura-y-humedad-con-dht11.html" class="no-ch">Reto 22 Temperatura y humedad con DHT11</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/para-saber-mas.html" class="no-ch">Para saber más</a>
+</li>
+<li> <a href="../html/fuentes-y-elp.html" class="no-ch">Fuentes y elp</a>
+</li>
+</ul></nav><main id="20251116150629QUKFAF" class="page"> <header id="header-20251116150629QUKFAF" class="page-header"> <h1 class="package-title">Robótica STEAM Viajera</h1>
+<h2 class="page-title">Reto 4 Colores y mando IR</h2></header><div id="page-content-20251116150629QUKFAF" class="page-content"> <article id="20251116150629BBZUPX" class="box"> <header class="box-head"> <div class="box-icon exe-icon"> <img src="../theme/icons/description.svg" alt="">
+</div>
+<h1 class="box-title">Infrarrojos y TDR-Steam</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20251115110314NHBVKN" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div class="exe-text">
+<p>La placa TDR-Steam tiene un sensor de infrarrojos en el pin digital 11/IO23, que cualquier mando a distancia puede enviarle una señal infrarroja que se codifica en nuestro sistema de control con un código.<img src="files/tmp/2025/11/17/20251117161120AWXRCA/20251111123131WERPYW/tdr-steam.png" alt="tdr-steam" width="500" height="382" style="float: right;"></p>
+<table border="1" class="exe-table" style="width: 36.8555%; height: 164.5px;">
+<tbody>
+<tr style="height: 73.75px;">
+<td style="width: 2.60417%; height: 73.75px;"></td>
+<td style="width: 27.7295%; text-align: center; height: 73.75px;"><strong>Sensor/Actuador/Módulo</strong></td>
+<td style="width: 21.931%; height: 73.75px; text-align: center;"><strong>Pin de conexión</strong></td>
+</tr>
+<tr style="height: 90.75px;">
+<td style="width: 2.60417%; height: 90.75px;">7</td>
+<td style="width: 27.7295%; height: 90.75px;">Módulo receptor de infrarrojos (IR)</td>
+<td style="width: 21.931%; height: 90.75px; text-align: center;">D11/IO23</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>El Kit de trabajo nos viene con un mando a distancia de Keyestudio, lo que haremos es descifrar el código de cada una de las teclas del mismo, para ello usaremos el siguiente programa:</p>
+<p><img src="../content/resources/20251115110314NHBVKN/codigo_ir.png" title="ir" width="350" height="189" alt="ir"><br></p>
+<p><br></p>
+<p><img src="../content/resources/20251115110314NHBVKN/mando-control-remoto-keyestudio.jpg" title="mando" width="500" height="500" style="float: right;" alt="mando"></p>
+<table border="1" class="exe-table" style="width: 35.6561%;">
+<tbody>
+<tr>
+<td style="width: 8.40329%;"><strong>Botón</strong></td>
+<td style="width: 20.8809%;"><strong>Flecha arriba</strong></td>
+<td style="width: 20.8809%;"><strong>Flecha abajo</strong></td>
+<td style="width: 23.682%;"><strong>Flecha derecha</strong></td>
+<td style="width: 25.9738%;"><strong>Flecha izquierda</strong></td>
+</tr>
+<tr>
+<td style="width: 8.40329%;"><strong>Código</strong></td>
+<td style="width: 20.8809%; text-align: center;">70</td>
+<td style="width: 20.8809%; text-align: center;">21</td>
+<td style="width: 23.682%; text-align: center;">67</td>
+<td style="width: 25.9738%; text-align: center;">68</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 8.40329%;"><strong>Botón</strong></td>
+<td style="width: 20.8809%; text-align: center;"><strong>OK</strong></td>
+<td style="width: 20.8809%; text-align: center;"><strong>1</strong></td>
+<td style="width: 23.682%; text-align: center;"><strong>2</strong></td>
+<td style="width: 25.9738%; text-align: center;"><strong>3</strong></td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 8.40329%;"><strong>Código</strong></td>
+<td style="width: 20.8809%; text-align: center;">64</td>
+<td style="width: 20.8809%; text-align: center;">22</td>
+<td style="width: 23.682%; text-align: center;">25</td>
+<td style="width: 25.9738%; text-align: center;">13</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 8.40329%;"><strong>Botón</strong></td>
+<td style="width: 20.8809%; text-align: center;"><strong>4</strong></td>
+<td style="width: 20.8809%; text-align: center;"><strong>5</strong></td>
+<td style="width: 23.682%; text-align: center;"><strong>6</strong></td>
+<td style="width: 25.9738%; text-align: center;"><strong>7</strong></td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 8.40329%;"><strong>Código</strong></td>
+<td style="width: 20.8809%; text-align: center;">12</td>
+<td style="width: 20.8809%; text-align: center;">24</td>
+<td style="width: 23.682%; text-align: center;">94</td>
+<td style="width: 25.9738%; text-align: center;">8</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 8.40329%;"><strong>Botón</strong></td>
+<td style="width: 20.8809%; text-align: center;"><strong>8</strong></td>
+<td style="width: 20.8809%; text-align: center;"><strong>9</strong></td>
+<td style="width: 23.682%; text-align: center;"><strong>0</strong></td>
+<td style="width: 25.9738%; text-align: center;"><strong>*</strong></td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 8.40329%;"><strong>Código</strong></td>
+<td style="width: 20.8809%; text-align: center;">28</td>
+<td style="width: 20.8809%; text-align: center;">90</td>
+<td style="width: 23.682%; text-align: center;">82</td>
+<td style="width: 25.9738%; text-align: center;">66</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 8.40329%;"><strong>Botón</strong></td>
+<td style="width: 20.8809%; text-align: center;"><strong>#</strong></td>
+<td style="width: 20.8809%; text-align: center;"><br></td>
+<td style="width: 23.682%; text-align: center;"><br></td>
+<td style="width: 25.9738%; text-align: center;"><br></td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 8.40329%;"><strong>Código</strong></td>
+<td style="width: 20.8809%; text-align: center;">74</td>
+<td style="width: 20.8809%; text-align: center;"><br></td>
+<td style="width: 23.682%; text-align: center;"><br></td>
+<td style="width: 25.9738%; text-align: center;"><br></td>
+</tr>
+</tbody>
+</table>
+</div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="20251116150629SWWJEV" class="box"> <header class="box-head"> <div class="box-icon exe-icon"> <img src="../theme/icons/edit_note.svg" alt="">
+</div>
+<h1 class="box-title">Tarea Reto 4 Maletas</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="202511151224336946HG" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><p>Se trata de un compositor de colores RGB en el led RGB de la TDR-STeam, las teclas del mando a distancia actuarán de las siguiente forma:</p>
+<ul>
+<li>Botón 1 aumenta el color rojo, botón 4 disminuye el color rojo.</li>
+<li>Botón 2 aumenta el color verde, botón 5 disminuye el color verde.</li>
+<li>Botón 3 aumenta el color azul, botón 6 disminuye el color azul.</li>
+</ul>
+<p>Los colores no pueden bajar de valor 0 ni subir por encima de 255. La cantidad de los tres colores debe aparecer en el programa con el bloque "di" y en la pantalla LCD. Al principio los tres colores están a valor 128.</p>
+            <div class="iDevice_buttons feedback-button js-required">
+                <input type="button" class="feedbacktooglebutton" value="Ayuda">
+            </div>
+            <div class="feedback js-feedback js-hidden"><p>Código:</p>
+<p><img src="../content/resources/202511151224336946HG/maleta_reto4.png" title="reto4 maleta" width="900" height="621" alt="reto4 maleta" /></p></div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article>
+</div></main><div class="nav-buttons"> <a href="../html/reto-3-humedad-y-led-rgb.html" title="Anterior" class="nav-button nav-button-left"> <span>Anterior</span></a><a href="../html/reto-5-melodias-rttl-y-mando-ir.html" title="Siguiente" class="nav-button nav-button-right"> <span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">creative commons: attribution - share alike 4.0</a></p>
+</div>
+<div id="siteUserFooter"> <div>Por: Pedro Ruiz Fernández</div>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>

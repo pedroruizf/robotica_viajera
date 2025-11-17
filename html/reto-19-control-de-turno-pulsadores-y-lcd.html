@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-node-20251116150629SQOGGU">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v3.0.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Reto 19 Control de turno. Pulsadores y LCD | Robótica STEAM Viajera</title>
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"> </script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css">
+<script src="../theme/default.js"> </script><link rel="stylesheet" href="../theme/content.css">
+<header>
+  
+  <img src="files/tmp/2025/11/15/20251115183913RLUZEA/file_manager/parque-de-las-ciencias-granada-logo.png" alt="Logo del parque"></header>
+</head>
+<body class="exe-export exe-web-site" lang="es">
+<script>document.body.className+=" js"</script><div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav"> <ul> <li> <a href="../index.html" class="main-node daddy">Retos Maletas Viajeras</a><ul class="other-section"> <li> <a href="../html/reto-1-multitarea.html" class="no-ch">Reto 1 Multitarea</a>
+</li>
+<li> <a href="../html/reto-2-datalogger-y-graficado.html" class="no-ch">Reto 2 Datalogger y graficado</a>
+</li>
+<li> <a href="../html/reto-3-humedad-y-led-rgb.html" class="no-ch">Reto 3 Humedad y led RGB</a>
+</li>
+<li> <a href="../html/reto-4-colores-y-mando-ir.html" class="no-ch">Reto 4 Colores y mando IR</a>
+</li>
+<li> <a href="../html/reto-5-melodias-rttl-y-mando-ir.html" class="no-ch">Reto 5 Melodias RTTL y mando IR</a>
+</li>
+<li> <a href="../html/reto-6-instrumento-por-luz-theremin.html" class="no-ch">Reto 6 Instrumento por luz (Theremin)</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/control-programado-con-esp32-steamaker-tdr-steam-microblocks.html" class="daddy">Control programado con ESP32 Steamaker + TDR-Steam + Microblocks</a><ul> <li> <a href="../html/elementos-y-tipos.html" class="no-ch">Elementos y tipos</a>
+</li>
+<li> <a href="../html/elemento-de-control.html" class="no-ch">Elemento de control</a>
+</li>
+<li> <a href="../html/microblocks.html" class="daddy">Microblocks</a><ul class="other-section"> <li> <a href="../html/pasos-previos-a-usar-microblocks.html" class="no-ch">Pasos previos a usar microblocks</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/salidas-digitales-y-bucles.html" class="daddy">Salidas digitales y bucles</a><ul class="other-section"> <li> <a href="../html/reto-01-led-parpadeante.html" class="no-ch">Reto 01 Led parpadeante</a>
+</li>
+<li> <a href="../html/reto-02-dos-leds-parpadeantes-alternativos-variables.html" class="no-ch">Reto 02 Dos Leds parpadeantes alternativos. Variables</a>
+</li>
+<li> <a href="../html/reto-03-repeticiones-con-leds-parpadeantes.html" class="no-ch">Reto 03 Repeticiones con leds parpadeantes</a>
+</li>
+<li> <a href="../html/reto-04-notas-musicales-zumbador.html" class="no-ch">Reto 04 Notas musicales (zumbador)</a>
+</li>
+<li> <a href="../html/reto-05-escala-con-zumbador.html" class="no-ch">Reto 05 Escala con zumbador</a>
+</li>
+<li> <a href="../html/reto-06-melodia-con-zumbador.html" class="no-ch">Reto 06 Melodía con zumbador</a>
+</li>
+<li> <a href="../html/reto-07-sos-con-zumbador.html" class="no-ch">Reto 07 SOS con zumbador</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/entradas-digitales-condicionales.html" class="daddy">Entradas digitales. Condicionales</a><ul class="other-section"> <li> <a href="../html/reto-08-encendido-de-led-con-pulsador-condicionales.html" class="no-ch">Reto 08 Encendido de led con pulsador. Condicionales</a>
+</li>
+<li> <a href="../html/reto-09-encendido-y-apagado-de-led-con-dos-pulsadores.html" class="no-ch">Reto 09 Encendido y apagado de led con dos pulsadores</a>
+</li>
+<li> <a href="../html/retos-10-ab-encendido-y-apagado-de-led-con-operadores-logicos.html" class="no-ch">Retos 10 (a,b) Encendido y apagado de led con operadores lógicos</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/salidas-pwm-analogicas.html" class="daddy">Salidas PWM (analógicas)</a><ul class="other-section"> <li> <a href="../html/reto-11-encender-led-rgb.html" class="no-ch">Reto 11 Encender led RGB</a>
+</li>
+<li> <a href="../html/reto-12-intensidad-de-led-rgb-fade-in-fade-out.html" class="no-ch">Reto 12 Intensidad de led RGB (fade in, fade out)</a>
+</li>
+<li> <a href="../html/reto-13-intensidad-de-led-rgb-con-pulsador.html" class="no-ch">Reto 13 Intensidad de led RGB con pulsador</a>
+</li>
+<li> <a href="../html/reto-14-color-aleatorio-con-led-rgb.html" class="no-ch">Reto 14 Color aleatorio con led RGB</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/entradas-analogicas-comunicacion-serie.html" class="daddy">Entradas analógicas. Comunicación serie</a><ul class="other-section"> <li> <a href="../html/reto-15-interruptor-crepuscular-por-umbral-comunicacion-serie.html" class="no-ch">Reto 15 Interruptor crepuscular por umbral. Comunicación serie</a>
+</li>
+<li> <a href="../html/reto-16-interruptor-crepuscular-progresivo.html" class="no-ch">Reto 16 Interruptor crepuscular progresivo</a>
+</li>
+<li> <a href="../html/reto-17-control-de-leds-con-potenciometro.html" class="no-ch">Reto 17 Control de leds con potenciómetro</a>
+</li>
+<li> <a href="../html/reto-18-potenciometro-y-led-rgb.html" class="no-ch">Reto 18 Potenciómetro y led RGB</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/pantalla-lcd-lm35-y-dht11.html" class="daddy">Pantalla LCD, LM35 y DHT11</a><ul> <li class="active"> <a href="../html/reto-19-control-de-turno-pulsadores-y-lcd.html" class="active no-ch">Reto 19 Control de turno. Pulsadores y LCD</a>
+</li>
+<li> <a href="../html/reto-20-scroll-de-texto.html" class="no-ch">Reto 20 Scroll de texto</a>
+</li>
+<li> <a href="../html/reto-21-temperatura-con-lm35.html" class="no-ch">Reto 21 Temperatura con LM35</a>
+</li>
+<li> <a href="../html/reto-22-temperatura-y-humedad-con-dht11.html" class="no-ch">Reto 22 Temperatura y humedad con DHT11</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/para-saber-mas.html" class="no-ch">Para saber más</a>
+</li>
+<li> <a href="../html/fuentes-y-elp.html" class="no-ch">Fuentes y elp</a>
+</li>
+</ul></nav><main id="20251116150629SQOGGU" class="page"> <header id="header-20251116150629SQOGGU" class="page-header"> <h1 class="package-title">Robótica STEAM Viajera</h1>
+<h2 class="page-title">Reto 19 Control de turno. Pulsadores y LCD</h2></header><div id="page-content-20251116150629SQOGGU" class="page-content"> <article id="20251116150629EQFTYI" class="box"> <header class="box-head"> <div class="box-icon exe-icon"> <img src="../theme/icons/description.svg" alt="">
+</div>
+<h1 class="box-title">Pantalla LCD</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20251111123131EGNIJW" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div class="exe-text">
+<p>Estas pantallas LCD (Liquid Crystal Display), son actuadores que sirven para mostrar datos. Suele haber dos tipos la 16x2 (16<img src="../content/resources/20251111123131EGNIJW/16x2_lcd_with_iicmodule.png" alt="lcd" width="300" height="300" style="float: right; margin-right: 5px; margin-left: 5px;"> columnas y dos filas) y las 20x4 (20 columnas y 4 filas). La conexión de estas pantallas con ESP32 STEAMakers suele ser por el puerto o bus I2C, en TDR-Steam tenemos una conexión a tal efecto (conector 11), con pines Vcc, GND, SDA y SCL. En la parte trasera de la pantalla tenemos los mismos pines para ser conectados con los pines del conector 11 de TDR-Steam.</p>
+<p><img src="../content/resources/20251111123131EGNIJW/tdr-steam.png" alt="tdr-steam" width="500" height="382"></p>
+<p>Las instrucciones o bloques de microblocks para controlar pantallas LCD, se ponen a disposición cargando una librería llamada "LCD Display".</p>
+<p><img src="../content/resources/20251111123131EGNIJW/lcd.gif" title="lcd" width="800" height="469" alt="lcd"></p>
+</div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="20251116150629WDKSPC" class="box"> <header class="box-head"> <div class="box-icon exe-icon"> <img src="../theme/icons/edit_note.svg" alt="">
+</div>
+<h1 class="box-title">Tarea Reto 19</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20251111123131SSJOFT" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div>
+            <dl>
+                <div class="inline"><dt><span title="Duración:">Duración:</span></dt><dd>30</dd></div>
+                <div class="inline"><dt><span title="Agrupamiento:">Agrupamiento:</span></dt><dd>1</dd></div>
+            </dl><div class="pbl-task-description">
+<p>Se trata de un control de turno, para ello tenemos dos pulsadores SW1 (entrada digital 2/IO26) y SW2 (entrada digital 7/IO14) y una pantalla LCD 16x2 (16 columnas y 2 filas) para mostrar el turno actual. Si se pulsa el pulsador SW1 el turno avanza en uno, si se pulsa el pulsador SW2 el turno retrocede en uno. El turno no puede ser un número negativo.</p>
+<p>&nbsp;Objetivos:</p>
+<ul>
+<li>Conocer y usar pantalla LCD.</li>
+<li>Repaso de funciones.</li>
+<li>Repaso de condicionales.<br></li>
+<li>Repaso de pulsadores.</li>
+</ul>
+</div>
+            <div class="iDevice_buttons feedback-button js-required">
+                <input type="button" class="feedbacktooglebutton" value="Ayuda">
+            </div>
+            <div class="feedback js-feedback js-hidden"><p>Código:</p>
+<p><img src="../content/resources/20251111123131SSJOFT/reto19.png" title="reto19" width="400" height="416" alt="reto19" /></p>
+<p><img src="../content/resources/20251111123131SSJOFT/mblocks_steam_reto19.gif" title="reto19" width="800" height="469" alt="reto19" /></p></div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article>
+</div></main><div class="nav-buttons"> <a href="../html/pantalla-lcd-lm35-y-dht11.html" title="Anterior" class="nav-button nav-button-left"> <span>Anterior</span></a><a href="../html/reto-20-scroll-de-texto.html" title="Siguiente" class="nav-button nav-button-right"> <span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">creative commons: attribution - share alike 4.0</a></p>
+</div>
+<div id="siteUserFooter"> <div>Por: Pedro Ruiz Fernández</div>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>

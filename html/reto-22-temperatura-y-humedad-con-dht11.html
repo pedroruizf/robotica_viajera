@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-node-20251116150629BZXGNJ">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v3.0.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Reto 22 Temperatura y humedad con DHT11 | Robótica STEAM Viajera</title>
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"> </script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css">
+<script src="../theme/default.js"> </script><link rel="stylesheet" href="../theme/content.css">
+<header>
+  
+  <img src="files/tmp/2025/11/15/20251115183913RLUZEA/file_manager/parque-de-las-ciencias-granada-logo.png" alt="Logo del parque"></header>
+</head>
+<body class="exe-export exe-web-site" lang="es">
+<script>document.body.className+=" js"</script><div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav"> <ul> <li> <a href="../index.html" class="main-node daddy">Retos Maletas Viajeras</a><ul class="other-section"> <li> <a href="../html/reto-1-multitarea.html" class="no-ch">Reto 1 Multitarea</a>
+</li>
+<li> <a href="../html/reto-2-datalogger-y-graficado.html" class="no-ch">Reto 2 Datalogger y graficado</a>
+</li>
+<li> <a href="../html/reto-3-humedad-y-led-rgb.html" class="no-ch">Reto 3 Humedad y led RGB</a>
+</li>
+<li> <a href="../html/reto-4-colores-y-mando-ir.html" class="no-ch">Reto 4 Colores y mando IR</a>
+</li>
+<li> <a href="../html/reto-5-melodias-rttl-y-mando-ir.html" class="no-ch">Reto 5 Melodias RTTL y mando IR</a>
+</li>
+<li> <a href="../html/reto-6-instrumento-por-luz-theremin.html" class="no-ch">Reto 6 Instrumento por luz (Theremin)</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/control-programado-con-esp32-steamaker-tdr-steam-microblocks.html" class="daddy">Control programado con ESP32 Steamaker + TDR-Steam + Microblocks</a><ul> <li> <a href="../html/elementos-y-tipos.html" class="no-ch">Elementos y tipos</a>
+</li>
+<li> <a href="../html/elemento-de-control.html" class="no-ch">Elemento de control</a>
+</li>
+<li> <a href="../html/microblocks.html" class="daddy">Microblocks</a><ul class="other-section"> <li> <a href="../html/pasos-previos-a-usar-microblocks.html" class="no-ch">Pasos previos a usar microblocks</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/salidas-digitales-y-bucles.html" class="daddy">Salidas digitales y bucles</a><ul class="other-section"> <li> <a href="../html/reto-01-led-parpadeante.html" class="no-ch">Reto 01 Led parpadeante</a>
+</li>
+<li> <a href="../html/reto-02-dos-leds-parpadeantes-alternativos-variables.html" class="no-ch">Reto 02 Dos Leds parpadeantes alternativos. Variables</a>
+</li>
+<li> <a href="../html/reto-03-repeticiones-con-leds-parpadeantes.html" class="no-ch">Reto 03 Repeticiones con leds parpadeantes</a>
+</li>
+<li> <a href="../html/reto-04-notas-musicales-zumbador.html" class="no-ch">Reto 04 Notas musicales (zumbador)</a>
+</li>
+<li> <a href="../html/reto-05-escala-con-zumbador.html" class="no-ch">Reto 05 Escala con zumbador</a>
+</li>
+<li> <a href="../html/reto-06-melodia-con-zumbador.html" class="no-ch">Reto 06 Melodía con zumbador</a>
+</li>
+<li> <a href="../html/reto-07-sos-con-zumbador.html" class="no-ch">Reto 07 SOS con zumbador</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/entradas-digitales-condicionales.html" class="daddy">Entradas digitales. Condicionales</a><ul class="other-section"> <li> <a href="../html/reto-08-encendido-de-led-con-pulsador-condicionales.html" class="no-ch">Reto 08 Encendido de led con pulsador. Condicionales</a>
+</li>
+<li> <a href="../html/reto-09-encendido-y-apagado-de-led-con-dos-pulsadores.html" class="no-ch">Reto 09 Encendido y apagado de led con dos pulsadores</a>
+</li>
+<li> <a href="../html/retos-10-ab-encendido-y-apagado-de-led-con-operadores-logicos.html" class="no-ch">Retos 10 (a,b) Encendido y apagado de led con operadores lógicos</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/salidas-pwm-analogicas.html" class="daddy">Salidas PWM (analógicas)</a><ul class="other-section"> <li> <a href="../html/reto-11-encender-led-rgb.html" class="no-ch">Reto 11 Encender led RGB</a>
+</li>
+<li> <a href="../html/reto-12-intensidad-de-led-rgb-fade-in-fade-out.html" class="no-ch">Reto 12 Intensidad de led RGB (fade in, fade out)</a>
+</li>
+<li> <a href="../html/reto-13-intensidad-de-led-rgb-con-pulsador.html" class="no-ch">Reto 13 Intensidad de led RGB con pulsador</a>
+</li>
+<li> <a href="../html/reto-14-color-aleatorio-con-led-rgb.html" class="no-ch">Reto 14 Color aleatorio con led RGB</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/entradas-analogicas-comunicacion-serie.html" class="daddy">Entradas analógicas. Comunicación serie</a><ul class="other-section"> <li> <a href="../html/reto-15-interruptor-crepuscular-por-umbral-comunicacion-serie.html" class="no-ch">Reto 15 Interruptor crepuscular por umbral. Comunicación serie</a>
+</li>
+<li> <a href="../html/reto-16-interruptor-crepuscular-progresivo.html" class="no-ch">Reto 16 Interruptor crepuscular progresivo</a>
+</li>
+<li> <a href="../html/reto-17-control-de-leds-con-potenciometro.html" class="no-ch">Reto 17 Control de leds con potenciómetro</a>
+</li>
+<li> <a href="../html/reto-18-potenciometro-y-led-rgb.html" class="no-ch">Reto 18 Potenciómetro y led RGB</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/pantalla-lcd-lm35-y-dht11.html" class="daddy">Pantalla LCD, LM35 y DHT11</a><ul> <li> <a href="../html/reto-19-control-de-turno-pulsadores-y-lcd.html" class="no-ch">Reto 19 Control de turno. Pulsadores y LCD</a>
+</li>
+<li> <a href="../html/reto-20-scroll-de-texto.html" class="no-ch">Reto 20 Scroll de texto</a>
+</li>
+<li> <a href="../html/reto-21-temperatura-con-lm35.html" class="no-ch">Reto 21 Temperatura con LM35</a>
+</li>
+<li class="active"> <a href="../html/reto-22-temperatura-y-humedad-con-dht11.html" class="active no-ch">Reto 22 Temperatura y humedad con DHT11</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/para-saber-mas.html" class="no-ch">Para saber más</a>
+</li>
+<li> <a href="../html/fuentes-y-elp.html" class="no-ch">Fuentes y elp</a>
+</li>
+</ul></nav><main id="20251116150629BZXGNJ" class="page"> <header id="header-20251116150629BZXGNJ" class="page-header"> <h1 class="package-title">Robótica STEAM Viajera</h1>
+<h2 class="page-title">Reto 22 Temperatura y humedad con DHT11</h2></header><div id="page-content-20251116150629BZXGNJ" class="page-content"> <article id="20251116150629LYIYWJ" class="box"> <header class="box-head"> <div class="box-icon exe-icon"> <img src="../theme/icons/description.svg" alt="">
+</div>
+<h1 class="box-title">DHT11 en TDR-Steam</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20251115064745MKPXBF" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div class="exe-text">
+<p>La placa TDR-Steam tenemos el sensor DHT11 digital conectado al pin digital 4/ IO17. Este sensor digital nos da la lectura simultánea de humedad y temperatura.<img src="files/tmp/2025/11/17/20251117161120AWXRCA/20251111123131WERPYW/tdr-steam.png" alt="tdr-steam" width="500" height="382" style="float: right;"></p>
+<table border="1" class="exe-table" style="width: 36.8555%; height: 233.5px;">
+<tbody>
+<tr style="height: 100.75px;">
+<td style="width: 2.60417%; height: 100.75px;"></td>
+<td style="width: 27.7295%; text-align: center; height: 100.75px;"><strong>Sensor/Actuador/Módulo</strong></td>
+<td style="width: 21.931%; height: 100.75px; text-align: center;"><strong>Pin de conexión</strong></td>
+</tr>
+<tr style="height: 132.75px;">
+<td style="width: 2.60417%; height: 132.75px;">4</td>
+<td style="width: 27.7295%; height: 132.75px;">Módulo DHT11 Sensor de temperatura y humedad</td>
+<td style="width: 21.931%; height: 132.75px; text-align: center;">D4/IO17</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="20251116150629CPOUGI" class="box"> <header class="box-head"> <div class="box-icon exe-icon"> <img src="../theme/icons/description.svg" alt="">
+</div>
+<h1 class="box-title">Para saber más de DHT11</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20251111123131GYEKVT" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div class="exe-text">
+<p>El DHT11 es un sensor que permite realizar la&nbsp;medición simultánea de temperatura y humedad.<img src="../content/resources/20251111123131GYEKVT/dht11.jpg" alt="dht11" width="289" height="289" style="float: right; margin-right: 4px; margin-left: 4px;"></p>
+<p>Estos sensores disponen de un microprocesador que realiza la medición, dando su valor mediante una señal digital, no como el LM35, por tanto es menos sensible al ruido. Al ser una señal digital es muy sencillo adquirir esta información por la placa de control. Para adquirir esta información lo haremos a través de instrucciones que forman parte de una librería.&nbsp;</p>
+<p>Las precisión y capacidades de medición del DHT11 son pobres:</p>
+<ul>
+<li>Medición de temperatura entre 0 a 50, con una precisión de 2ºC</li>
+<li>Medición de humedad entre 20 a 80%, con precisión del 5%</li>
+<li>Frecuencia de muestreo de 1 muestras por segundo (1 Hz)</li>
+</ul>
+<p><img src="../content/resources/20251111123131GYEKVT/dht11_board.png" alt="dht11 board" width="500" height="481"></p>
+</div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="20251116150629TAWIRG" class="box"> <header class="box-head"> <div class="box-icon exe-icon"> <img src="../theme/icons/edit_note.svg" alt="">
+</div>
+<h1 class="box-title">Tarea Reto 22</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20251111123131UQMLTA" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div>
+            <dl>
+                <div class="inline"><dt><span title="Duración:">Duración:</span></dt><dd>30</dd></div>
+                <div class="inline"><dt><span title="Agrupamiento:">Agrupamiento:</span></dt><dd>1</dd></div>
+            </dl><div class="pbl-task-description">
+<p>Se trata de adquirir del sensor DHT11 (conectado a entrada digital 4/IO17 de TDR-Steam) el valor de humedad y temperatura cada segundo y mostrarlo en la pantalla LCD 16x2.</p>
+<p>Objetivos:</p>
+<ul>
+<li>Repaso de pantalla LCD.</li>
+<li>Conocer y trabajar con DHT11.</li>
+</ul>
+</div>
+            <div class="iDevice_buttons feedback-button js-required">
+                <input type="button" class="feedbacktooglebutton" value="Ayuda">
+            </div>
+            <div class="feedback js-feedback js-hidden"><p>Código:</p>
+<p><img src="../content/resources/20251111123131UQMLTA/reto22.png" title="reto22" width="400" height="274" alt="reto22" /></p>
+<p><img src="../content/resources/20251111123131UQMLTA/mblocks_steam_reto22.gif" title="reto22" width="800" height="469" alt="reto22" /></p></div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article>
+</div></main><div class="nav-buttons"> <a href="../html/reto-21-temperatura-con-lm35.html" title="Anterior" class="nav-button nav-button-left"> <span>Anterior</span></a><a href="../html/para-saber-mas.html" title="Siguiente" class="nav-button nav-button-right"> <span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">creative commons: attribution - share alike 4.0</a></p>
+</div>
+<div id="siteUserFooter"> <div>Por: Pedro Ruiz Fernández</div>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>
