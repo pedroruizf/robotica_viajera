@@ -1,0 +1,25 @@
+module 'MueveCutebot'
+author 'por Pedro Ruiz'
+version 1 0 
+depends Cutebot 
+description ''
+
+choices cutebotmovimiento 'adelante' 'atrás' 'parar' 'izquierda' 'derecha' 
+choices cutebotvelocidad '0' '1' '2' '3' '4' '5' '6' '7' '8' '9' '10'
+
+spec ' ' 'adelante' 'acción _ _' 'menu.cutebotmovimiento menu.cutebotvelocidad' 'adelante' 0
+
+to adelante movimiento velocidad {
+  if (movimiento == 'adelante') {
+    cutebot_setWheelSpeed ('[misc:rescale]' velocidad 0 10 0 100) ('[misc:rescale]' velocidad 0 10 0 100)
+  } (movimiento == 'atrás') {
+    cutebot_setWheelSpeed ('[misc:rescale]' velocidad 0 10 0 -100) ('[misc:rescale]' velocidad 0 10 0 -100)
+  } (movimiento == 'izquierda') {
+    cutebot_setWheelSpeed ('[misc:rescale]' velocidad 0 10 0 -100) ('[misc:rescale]' velocidad 0 10 0 100)
+  } (movimiento == 'derecha') {
+    cutebot_setWheelSpeed ('[misc:rescale]' velocidad 0 10 0 100) ('[misc:rescale]' velocidad 0 10 0 -100)
+  } (movimiento == 'parar') {
+    cutebot_setWheelSpeed ('[misc:rescale]' velocidad 0 10 0 0) ('[misc:rescale]' velocidad 0 10 0 0)
+  }
+}
+

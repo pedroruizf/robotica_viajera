@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel MQTT Pro - Casa Pedro</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #eceff1; padding: 20px; }
+        .container { max-width: 1000px; margin: auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        
+        /* Controles */
+        .grid { display: grid; grid-template-columns: 1fr 2fr; gap: 20px; }
+        .led-box { display: flex; flex-direction: column; gap: 10px; align-items: center; padding: 15px; border: 1px solid #ddd; border-radius: 10px; }
+        .btn { padding: 12px 30px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; width: 100%; transition: 0.2s; }
+        .btn-azul.on { background: #007bff; color: white; }
+        .btn-rojo.on { background: #dc3545; color: white; }
+        .btn-off { background: #6c757d; color: white; }
+
+        /* Gráfica y Grabación */
+        .chart-section { margin-top: 20px; position: relative; }
+        .recording-bar { display: flex; align-items: center; gap: 15px; margin-bottom: 10px; padding: 10px; background: #f8f9fa; border-radius: 8px; }
+        .rec-btn { background: #28a745; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; }
+        .rec-btn.active { background: #dc3545; }
+        .dot { width: 12px; height: 12px; background: red; border-radius: 50%; display: none; animation: blink 1s infinite; }
+        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+
+        /* Consola */
+        #console { background: #1e1e1e; color: #00ff00; height: 150px; overflow-y: auto; padding: 10px; font-family: monospace; font-size: 12px; margin-top: 20px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Control MQTT - Casa Pedro</h2>
+    
+    <div class="grid">
+        <div class="led-controls">
+            <div class="led-box">
+                <strong>LED AZUL</strong>
+                <button id="btnAzul" class="btn btn-off" onclick="sendMQTT('ledazul')">OFF</button>
+            </div>
+            <br>
+            <div class="led-box">
+                <strong>LED ROJO</strong>
+                <button id="btnRojo" class="btn btn-off" onclick="sendMQTT('ledrojo')">OFF</button>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <div class="recording-bar">
+                <button id="recBtn" class="rec-btn" onclick="toggleRecording()">Iniciar Grabación</button>
+                <div id="recDot" class="dot"></div>
+                <button id="csvBtn" class="btn-off" style="padding: 5px 10px;" onclick="downloadCSV()">Descargar CSV</button>
+                <span id="dataCount">Registros: 0</span>
+            </div>
+            <div style="height: 350px;">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div id="console">Iniciando consola...</div>
+</div>
+
+<script>
+    let isRecording = false;
+    let historicalData = [];
+    let ledStates = { ledazul: 'off', ledrojo: 'off' };
+
+    // Configuración MQTT
+    const client = new Paho.MQTT.Client("casapedro.synology.me", 9001, "web_" + Math.random().toString(16));
+
+    // Configuración Gráfica (Dual Axis)
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Temperatura (°C)',
+                borderColor: '#ff5722',
+                data: [],
+                yAxisID: 'yTemp',
+                tension: 0.3
+            }, {
+                label: 'Humedad (%)',
+                borderColor: '#2196f3',
+                data: [],
+                yAxisID: 'yHum',
+                tension: 0.3
+            }]
+        },
+        options: {
+            maintainAspectRatio: false,
+            scales: {
+                yTemp: { type: 'linear', position: 'left', title: { display: true, text: '°C' } },
+                yHum: { type: 'linear', position: 'right', title: { display: true, text: '%' }, grid: { drawOnChartArea: false } }
+            }
+        }
+    });
+
+    client.onMessageArrived = (msg) => {
+        const topic = msg.destinationName;
+        const val = msg.payloadString;
+        const time = new Date().toLocaleTimeString();
+
+        log(`RECIBIDO: ${topic} -> ${val}`);
+
+        if (topic === "temperatura" || topic === "humedad") {
+            const numericVal = parseFloat(val);
+            updateChart(topic, numericVal, time);
+            
+            if (isRecording) {
+                historicalData.push({ time, topic, value: numericVal });
+                document.getElementById('dataCount').innerText = `Registros: ${historicalData.length}`;
+            }
+        }
+    };
+
+    function updateChart(topic, val, time) {
+        if (myChart.data.labels.length > 50) { // Límite de 50 puntos visibles
+            myChart.data.labels.shift();
+            myChart.data.datasets[0].data.shift();
+            myChart.data.datasets[1].data.shift();
+        }
+
+        myChart.data.labels.push(time);
+        if (topic === "temperatura") {
+            myChart.data.datasets[0].data.push(val);
+            myChart.data.datasets[1].data.push(myChart.data.datasets[1].data.slice(-1)[0] || null);
+        } else {
+            myChart.data.datasets[1].data.push(val);
+            myChart.data.datasets[0].data.push(myChart.data.datasets[0].data.slice(-1)[0] || null);
+        }
+        myChart.update('none'); // Update sin animaciones bruscas
+    }
+
+    function sendMQTT(topic) {
+        const nextState = ledStates[topic] === 'off' ? 'on' : 'off';
+        const message = new Paho.MQTT.Message(nextState);
+        message.destinationName = topic;
+        client.send(message);
+        
+        ledStates[topic] = nextState;
+        const btn = topic === 'ledazul' ? document.getElementById('btnAzul') : document.getElementById('btnRojo');
+        btn.innerText = nextState.toUpperCase();
+        btn.className = `btn ${nextState === 'on' ? (topic === 'ledazul' ? 'btn-azul on' : 'btn-rojo on') : 'btn-off'}`;
+        
+        log(`ENVIADO: ${topic} -> ${nextState}`);
+    }
+
+    function toggleRecording() {
+        isRecording = !isRecording;
+        const btn = document.getElementById('recBtn');
+        const dot = document.getElementById('recDot');
+        
+        if (isRecording) {
+            btn.innerText = "Detener Grabación";
+            btn.classList.add('active');
+            dot.style.display = "block";
+            log("SISTEMA: Grabación iniciada");
+        } else {
+            btn.innerText = "Iniciar Grabación";
+            btn.classList.remove('active');
+            dot.style.display = "none";
+            log("SISTEMA: Grabación pausada");
+        }
+    }
+
+    function downloadCSV() {
+        if (historicalData.length === 0) return alert("No hay datos grabados");
+        
+        let csv = "Hora,Topic,Valor\n";
+        historicalData.forEach(row => csv += `${row.time},${row.topic},${row.value}\n`);
+        
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.setAttribute('href', url);
+        a.setAttribute('download', `datos_${new Date().getTime()}.csv`);
+        a.click();
+        log("SISTEMA: Archivo CSV exportado");
+    }
+
+    function log(msg) {
+        const consoleDiv = document.getElementById('console');
+        consoleDiv.innerHTML += `<div>[${new Date().toLocaleTimeString()}] ${msg}</div>`;
+        consoleDiv.scrollTop = consoleDiv.scrollHeight;
+    }
+
+    client.connect({
+        userName: "anonimo",
+        password: "anonimo",
+        onSuccess: () => {
+            log("CONECTADO A MOSQUITTO");
+            client.subscribe("temperatura");
+            client.subscribe("humedad");
+        }
+    });
+</script>
+</body>
+</html>
