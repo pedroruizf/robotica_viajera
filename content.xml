@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260302190709EOCRJ4</value>
+    <value>20260304191252U4XSHZ</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260302190709KDI00Q</value>
+    <value>20260304191252C5SJQ6</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -35,6 +35,14 @@
     <value>es</value>
   </odeProperty>
   <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - non commercial - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-nc-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
     <key>pp_theme</key>
     <value>zen</value>
   </odeProperty>
@@ -44,7 +52,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>1772473747845</value>
+    <value>1772647859119</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -81,7 +89,7 @@
 </odeProperties>
 <odeNavStructures>
 <odeNavStructure>
-  <odePageId>page-mm9h3sql-w84v568q0</odePageId>
+  <odePageId>page-mmccrluv-6qqh4g80v</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Kits Robótica STEAM Viajera</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
@@ -125,7 +133,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sql-w84v568q0</odePageId>
+      <odePageId>page-mmccrluv-6qqh4g80v</odePageId>
       <odeBlockId>20260223160258GNWUWG</odeBlockId>
       <blockName>¿Que son?</blockName>
       <iconName>book</iconName>
@@ -154,7 +162,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sql-w84v568q0</odePageId>
+          <odePageId>page-mmccrluv-6qqh4g80v</odePageId>
           <odeBlockId>20260223160258GNWUWG</odeBlockId>
           <odeIdeviceId>20251118201830219VLP</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -183,7 +191,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sql-w84v568q0</odePageId>
+      <odePageId>page-mmccrluv-6qqh4g80v</odePageId>
       <odeBlockId>20260223160258XJYXPY</odeBlockId>
       <blockName>Objetivo</blockName>
       <iconName>book</iconName>
@@ -212,7 +220,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sql-w84v568q0</odePageId>
+          <odePageId>page-mmccrluv-6qqh4g80v</odePageId>
           <odeBlockId>20260223160258XJYXPY</odeBlockId>
           <odeIdeviceId>20251118202626483M3Y</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -240,7 +248,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sql-w84v568q0</odePageId>
+      <odePageId>page-mmccrluv-6qqh4g80v</odePageId>
       <odeBlockId>20260223160258CYRKZC</odeBlockId>
       <blockName>Contenido</blockName>
       <iconName>book</iconName>
@@ -269,7 +277,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sql-w84v568q0</odePageId>
+          <odePageId>page-mmccrluv-6qqh4g80v</odePageId>
           <odeBlockId>20260223160258CYRKZC</odeBlockId>
           <odeIdeviceId>202511182027490298BA</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -300,8 +308,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqo-t0ug7rnke</odePageId>
-  <odeParentPageId>page-mm9h3sql-w84v568q0</odeParentPageId>
+  <odePageId>page-mmccrluy-fkxeejda1</odePageId>
+  <odeParentPageId>page-mmccrluv-6qqh4g80v</odeParentPageId>
   <pageName>Retos Kits STEAM Viajeros</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -344,7 +352,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqo-t0ug7rnke</odePageId>
+      <odePageId>page-mmccrluy-fkxeejda1</odePageId>
       <odeBlockId>20260223160258HPBCNH</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -373,7 +381,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqo-t0ug7rnke</odePageId>
+          <odePageId>page-mmccrluy-fkxeejda1</odePageId>
           <odeBlockId>20260223160258HPBCNH</odeBlockId>
           <odeIdeviceId>20251111123131XFJIML</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -406,8 +414,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqp-rf36vzi35</odePageId>
-  <odeParentPageId>page-mm9h3sqo-t0ug7rnke</odeParentPageId>
+  <odePageId>page-mmccrluz-kblox1vsr</odePageId>
+  <odeParentPageId>page-mmccrluy-fkxeejda1</odeParentPageId>
   <pageName>Reto 1 Multitarea</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -450,7 +458,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqp-rf36vzi35</odePageId>
+      <odePageId>page-mmccrluz-kblox1vsr</odePageId>
       <odeBlockId>20260223160258ZNNEQL</odeBlockId>
       <blockName>Multitarea</blockName>
       <iconName>book</iconName>
@@ -479,7 +487,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqp-rf36vzi35</odePageId>
+          <odePageId>page-mmccrluz-kblox1vsr</odePageId>
           <odeBlockId>20260223160258ZNNEQL</odeBlockId>
           <odeIdeviceId>20251111123131HYWKZP</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -511,7 +519,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqp-rf36vzi35</odePageId>
+      <odePageId>page-mmccrluz-kblox1vsr</odePageId>
       <odeBlockId>20260223160258MEMHOK</odeBlockId>
       <blockName>Tarea Reto 1 Kits</blockName>
       <iconName>think</iconName>
@@ -540,7 +548,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqp-rf36vzi35</odePageId>
+          <odePageId>page-mmccrluz-kblox1vsr</odePageId>
           <odeBlockId>20260223160258MEMHOK</odeBlockId>
           <odeIdeviceId>20251111123131NWWXHX</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -587,8 +595,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqp-3834ytnet</odePageId>
-  <odeParentPageId>page-mm9h3sqo-t0ug7rnke</odeParentPageId>
+  <odePageId>page-mmccrlv0-1cie2uv0c</odePageId>
+  <odeParentPageId>page-mmccrluy-fkxeejda1</odeParentPageId>
   <pageName>Reto 2 Datalogger y graficado</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -631,7 +639,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqp-3834ytnet</odePageId>
+      <odePageId>page-mmccrlv0-1cie2uv0c</odePageId>
       <odeBlockId>20260223160258QXREXA</odeBlockId>
       <blockName>DHT11 en TDR-Steam</blockName>
       <iconName>book</iconName>
@@ -660,7 +668,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqp-3834ytnet</odePageId>
+          <odePageId>page-mmccrlv0-1cie2uv0c</odePageId>
           <odeBlockId>20260223160258QXREXA</odeBlockId>
           <odeIdeviceId>20251115064004FFPFEZ</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -705,7 +713,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqp-3834ytnet</odePageId>
+      <odePageId>page-mmccrlv0-1cie2uv0c</odePageId>
       <odeBlockId>20260223160258EGGKVZ</odeBlockId>
       <blockName>Para saber más de DHT11</blockName>
       <iconName>book</iconName>
@@ -734,7 +742,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqp-3834ytnet</odePageId>
+          <odePageId>page-mmccrlv0-1cie2uv0c</odePageId>
           <odeBlockId>20260223160258EGGKVZ</odeBlockId>
           <odeIdeviceId>20251115064810PSQMAR</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -772,7 +780,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqp-3834ytnet</odePageId>
+      <odePageId>page-mmccrlv0-1cie2uv0c</odePageId>
       <odeBlockId>20260223160258RTRCIP</odeBlockId>
       <blockName>Tarea Reto 2 Kits</blockName>
       <iconName>think</iconName>
@@ -801,7 +809,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqp-3834ytnet</odePageId>
+          <odePageId>page-mmccrlv0-1cie2uv0c</odePageId>
           <odeBlockId>20260223160258RTRCIP</odeBlockId>
           <odeIdeviceId>20251111123131KNYKWB</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -848,8 +856,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqq-boe8awset</odePageId>
-  <odeParentPageId>page-mm9h3sqo-t0ug7rnke</odeParentPageId>
+  <odePageId>page-mmccrlv1-su996msmq</odePageId>
+  <odeParentPageId>page-mmccrluy-fkxeejda1</odeParentPageId>
   <pageName>Reto 3 Humedad y led RGB</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -892,7 +900,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqq-boe8awset</odePageId>
+      <odePageId>page-mmccrlv1-su996msmq</odePageId>
       <odeBlockId>20260223160258VMJWNI</odeBlockId>
       <blockName>Tarea Reto 3 Kits</blockName>
       <iconName>think</iconName>
@@ -921,7 +929,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqq-boe8awset</odePageId>
+          <odePageId>page-mmccrlv1-su996msmq</odePageId>
           <odeBlockId>20260223160258VMJWNI</odeBlockId>
           <odeIdeviceId>20251115065028PBVFNW</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -971,8 +979,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqq-r26riflct</odePageId>
-  <odeParentPageId>page-mm9h3sqo-t0ug7rnke</odeParentPageId>
+  <odePageId>page-mmccrlv1-gfv13rffu</odePageId>
+  <odeParentPageId>page-mmccrluy-fkxeejda1</odeParentPageId>
   <pageName>Reto 4 Colores y mando IR</pageName>
   <odeNavStructureOrder>3</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -1015,7 +1023,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqq-r26riflct</odePageId>
+      <odePageId>page-mmccrlv1-gfv13rffu</odePageId>
       <odeBlockId>20260223160258VPNSIL</odeBlockId>
       <blockName>Infrarrojos y TDR-Steam</blockName>
       <iconName>book</iconName>
@@ -1044,7 +1052,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqq-r26riflct</odePageId>
+          <odePageId>page-mmccrlv1-gfv13rffu</odePageId>
           <odeBlockId>20260223160258VPNSIL</odeBlockId>
           <odeIdeviceId>20251115110314NHBVKN</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1167,7 +1175,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqq-r26riflct</odePageId>
+      <odePageId>page-mmccrlv1-gfv13rffu</odePageId>
       <odeBlockId>20260223160258CLMGGJ</odeBlockId>
       <blockName>Tarea Reto 4 Kits</blockName>
       <iconName>think</iconName>
@@ -1196,7 +1204,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqq-r26riflct</odePageId>
+          <odePageId>page-mmccrlv1-gfv13rffu</odePageId>
           <odeBlockId>20260223160258CLMGGJ</odeBlockId>
           <odeIdeviceId>202511151224336946HG</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1237,8 +1245,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqr-8j62mtwmo</odePageId>
-  <odeParentPageId>page-mm9h3sqo-t0ug7rnke</odeParentPageId>
+  <odePageId>page-mmccrlv2-3g9ulam7u</odePageId>
+  <odeParentPageId>page-mmccrluy-fkxeejda1</odeParentPageId>
   <pageName>Reto 5 Melodias RTTL y mando IR</pageName>
   <odeNavStructureOrder>4</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -1281,7 +1289,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqr-8j62mtwmo</odePageId>
+      <odePageId>page-mmccrlv2-3g9ulam7u</odePageId>
       <odeBlockId>20260223160258YYKWNO</odeBlockId>
       <blockName>Tarea Reto 5 Kits</blockName>
       <iconName>think</iconName>
@@ -1310,7 +1318,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqr-8j62mtwmo</odePageId>
+          <odePageId>page-mmccrlv2-3g9ulam7u</odePageId>
           <odeBlockId>20260223160258YYKWNO</odeBlockId>
           <odeIdeviceId>20251115122636SOCBFZ</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1353,8 +1361,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqs-hxzoo06al</odePageId>
-  <odeParentPageId>page-mm9h3sqo-t0ug7rnke</odeParentPageId>
+  <odePageId>page-mmccrlv2-om7i75wvo</odePageId>
+  <odeParentPageId>page-mmccrluy-fkxeejda1</odeParentPageId>
   <pageName>Reto 6 Instrumento por luz (Theremin)</pageName>
   <odeNavStructureOrder>5</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -1397,7 +1405,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqs-hxzoo06al</odePageId>
+      <odePageId>page-mmccrlv2-om7i75wvo</odePageId>
       <odeBlockId>20260223160258XWTMJU</odeBlockId>
       <blockName>Tarea Reto 6 Kits</blockName>
       <iconName>think</iconName>
@@ -1426,7 +1434,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqs-hxzoo06al</odePageId>
+          <odePageId>page-mmccrlv2-om7i75wvo</odePageId>
           <odeBlockId>20260223160258XWTMJU</odeBlockId>
           <odeIdeviceId>20251115124803ZOJXIE</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1464,8 +1472,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqs-gs8qsphp5</odePageId>
-  <odeParentPageId>page-mm9h3sqo-t0ug7rnke</odeParentPageId>
+  <odePageId>page-mmccrlv3-9wqqljoj3</odePageId>
+  <odeParentPageId>page-mmccrluy-fkxeejda1</odeParentPageId>
   <pageName>Reto 7 IoT</pageName>
   <odeNavStructureOrder>6</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -1508,7 +1516,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqs-gs8qsphp5</odePageId>
+      <odePageId>page-mmccrlv3-9wqqljoj3</odePageId>
       <odeBlockId>20260223160258BSIGMG</odeBlockId>
       <blockName>IoT</blockName>
       <iconName>book</iconName>
@@ -1537,7 +1545,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqs-gs8qsphp5</odePageId>
+          <odePageId>page-mmccrlv3-9wqqljoj3</odePageId>
           <odeBlockId>20260223160258BSIGMG</odeBlockId>
           <odeIdeviceId>2026011013551117079K</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1566,7 +1574,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqs-gs8qsphp5</odePageId>
+      <odePageId>page-mmccrlv3-9wqqljoj3</odePageId>
       <odeBlockId>20260223160258IYSOEC</odeBlockId>
       <blockName>Tarea Reto 7 Kits</blockName>
       <iconName>think</iconName>
@@ -1595,7 +1603,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqs-gs8qsphp5</odePageId>
+          <odePageId>page-mmccrlv3-9wqqljoj3</odePageId>
           <odeBlockId>20260223160258IYSOEC</odeBlockId>
           <odeIdeviceId>20260110141443842W28</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1630,8 +1638,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqs-hquhxg46x</odePageId>
-  <odeParentPageId>page-mm9h3sql-w84v568q0</odeParentPageId>
+  <odePageId>page-mmccrlv3-dzj2riv85</odePageId>
+  <odeParentPageId>page-mmccrluv-6qqh4g80v</odeParentPageId>
   <pageName>Control programado con ESP32 Steamaker + TDR-Steam + Microblocks</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -1674,7 +1682,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqs-hquhxg46x</odePageId>
+      <odePageId>page-mmccrlv3-dzj2riv85</odePageId>
       <odeBlockId>20260223160258IGEEQK</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -1703,7 +1711,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqs-hquhxg46x</odePageId>
+          <odePageId>page-mmccrlv3-dzj2riv85</odePageId>
           <odeBlockId>20260223160258IGEEQK</odeBlockId>
           <odeIdeviceId>20251111123131KCSKRL</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1738,8 +1746,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqt-9ibqjoby7</odePageId>
-  <odeParentPageId>page-mm9h3sqs-hquhxg46x</odeParentPageId>
+  <odePageId>page-mmccrlv4-o2roo401d</odePageId>
+  <odeParentPageId>page-mmccrlv3-dzj2riv85</odeParentPageId>
   <pageName>Elementos y tipos</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -1782,7 +1790,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqt-9ibqjoby7</odePageId>
+      <odePageId>page-mmccrlv4-o2roo401d</odePageId>
       <odeBlockId>20260223160258ZOXLVV</odeBlockId>
       <blockName>Elementos</blockName>
       <iconName>book</iconName>
@@ -1811,7 +1819,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqt-9ibqjoby7</odePageId>
+          <odePageId>page-mmccrlv4-o2roo401d</odePageId>
           <odeBlockId>20260223160258ZOXLVV</odeBlockId>
           <odeIdeviceId>20251111123131ZKVXON</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1841,7 +1849,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqt-9ibqjoby7</odePageId>
+      <odePageId>page-mmccrlv4-o2roo401d</odePageId>
       <odeBlockId>20260223160258FXVNJV</odeBlockId>
       <blockName>Tipos</blockName>
       <iconName>book</iconName>
@@ -1870,7 +1878,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqt-9ibqjoby7</odePageId>
+          <odePageId>page-mmccrlv4-o2roo401d</odePageId>
           <odeBlockId>20260223160258FXVNJV</odeBlockId>
           <odeIdeviceId>20251111123131AUEOXH</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -1902,8 +1910,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3squ-4daa1hgln</odePageId>
-  <odeParentPageId>page-mm9h3sqs-hquhxg46x</odeParentPageId>
+  <odePageId>page-mmccrlv4-cs71on5cp</odePageId>
+  <odeParentPageId>page-mmccrlv3-dzj2riv85</odeParentPageId>
   <pageName>Elemento de control</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -1946,7 +1954,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3squ-4daa1hgln</odePageId>
+      <odePageId>page-mmccrlv4-cs71on5cp</odePageId>
       <odeBlockId>20260223160258VWYWGB</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -1975,7 +1983,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3squ-4daa1hgln</odePageId>
+          <odePageId>page-mmccrlv4-cs71on5cp</odePageId>
           <odeBlockId>20260223160258VWYWGB</odeBlockId>
           <odeIdeviceId>20251111123131OYCIIB</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2019,7 +2027,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3squ-4daa1hgln</odePageId>
+      <odePageId>page-mmccrlv4-cs71on5cp</odePageId>
       <odeBlockId>20260223160258JTBUIM</odeBlockId>
       <blockName>ESP32 Steamakers. Características</blockName>
       <iconName>book</iconName>
@@ -2048,7 +2056,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3squ-4daa1hgln</odePageId>
+          <odePageId>page-mmccrlv4-cs71on5cp</odePageId>
           <odeBlockId>20260223160258JTBUIM</odeBlockId>
           <odeIdeviceId>20251111123131MLKEQJ</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2107,7 +2115,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3squ-4daa1hgln</odePageId>
+      <odePageId>page-mmccrlv4-cs71on5cp</odePageId>
       <odeBlockId>20260223160258LOLKPC</odeBlockId>
       <blockName>Para saber sobre ESP32 STEAMakers</blockName>
       <iconName>book</iconName>
@@ -2136,7 +2144,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3squ-4daa1hgln</odePageId>
+          <odePageId>page-mmccrlv4-cs71on5cp</odePageId>
           <odeBlockId>20260223160258LOLKPC</odeBlockId>
           <odeIdeviceId>20251112210758642EJQ</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2168,7 +2176,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3squ-4daa1hgln</odePageId>
+      <odePageId>page-mmccrlv4-cs71on5cp</odePageId>
       <odeBlockId>20260223160258NSUJCV</odeBlockId>
       <blockName>TDR-Steam</blockName>
       <iconName>book</iconName>
@@ -2197,7 +2205,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3squ-4daa1hgln</odePageId>
+          <odePageId>page-mmccrlv4-cs71on5cp</odePageId>
           <odeBlockId>20260223160258NSUJCV</odeBlockId>
           <odeIdeviceId>20251111123131WERPYW</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2313,8 +2321,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3squ-05lqtix8l</odePageId>
-  <odeParentPageId>page-mm9h3sqs-hquhxg46x</odeParentPageId>
+  <odePageId>page-mmccrlv5-oa1aef5w1</odePageId>
+  <odeParentPageId>page-mmccrlv3-dzj2riv85</odeParentPageId>
   <pageName>Microblocks</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -2357,7 +2365,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3squ-05lqtix8l</odePageId>
+      <odePageId>page-mmccrlv5-oa1aef5w1</odePageId>
       <odeBlockId>20260223160258WXKAAS</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -2386,7 +2394,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3squ-05lqtix8l</odePageId>
+          <odePageId>page-mmccrlv5-oa1aef5w1</odePageId>
           <odeBlockId>20260223160258WXKAAS</odeBlockId>
           <odeIdeviceId>20251111124449LLZGTP</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2432,8 +2440,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqv-m3v2shbh9</odePageId>
-  <odeParentPageId>page-mm9h3squ-05lqtix8l</odeParentPageId>
+  <odePageId>page-mmccrlv5-zk6ecwzjf</odePageId>
+  <odeParentPageId>page-mmccrlv5-oa1aef5w1</odeParentPageId>
   <pageName>Pasos previos a usar microblocks</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -2476,7 +2484,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqv-m3v2shbh9</odePageId>
+      <odePageId>page-mmccrlv5-zk6ecwzjf</odePageId>
       <odeBlockId>20260223160258QMGVTP</odeBlockId>
       <blockName>Drivers y permisos</blockName>
       <iconName>book</iconName>
@@ -2505,7 +2513,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqv-m3v2shbh9</odePageId>
+          <odePageId>page-mmccrlv5-zk6ecwzjf</odePageId>
           <odeBlockId>20260223160258QMGVTP</odeBlockId>
           <odeIdeviceId>20260223105334525G3F</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2547,7 +2555,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqv-m3v2shbh9</odePageId>
+      <odePageId>page-mmccrlv5-zk6ecwzjf</odePageId>
       <odeBlockId>20260223160258VZEMMH</odeBlockId>
       <blockName>Firmware y bibliotecas</blockName>
       <iconName>book</iconName>
@@ -2576,7 +2584,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqv-m3v2shbh9</odePageId>
+          <odePageId>page-mmccrlv5-zk6ecwzjf</odePageId>
           <odeBlockId>20260223160258VZEMMH</odeBlockId>
           <odeIdeviceId>20251111124449IDDCXK</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2613,8 +2621,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqv-igfm75vnr</odePageId>
-  <odeParentPageId>page-mm9h3sqs-hquhxg46x</odeParentPageId>
+  <odePageId>page-mmccrlv6-jbpfvs914</odePageId>
+  <odeParentPageId>page-mmccrlv3-dzj2riv85</odeParentPageId>
   <pageName>Salidas digitales y bucles</pageName>
   <odeNavStructureOrder>3</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -2657,7 +2665,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqv-igfm75vnr</odePageId>
+      <odePageId>page-mmccrlv6-jbpfvs914</odePageId>
       <odeBlockId>20260223160258TXLDXC</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -2686,7 +2694,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqv-igfm75vnr</odePageId>
+          <odePageId>page-mmccrlv6-jbpfvs914</odePageId>
           <odeBlockId>20260223160258TXLDXC</odeBlockId>
           <odeIdeviceId>20251111123131QGIGKB</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2755,8 +2763,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqw-cnht4a5df</odePageId>
-  <odeParentPageId>page-mm9h3sqv-igfm75vnr</odeParentPageId>
+  <odePageId>page-mmccrlv6-4g8ioovo6</odePageId>
+  <odeParentPageId>page-mmccrlv6-jbpfvs914</odeParentPageId>
   <pageName>Reto 01 Led parpadeante</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -2791,7 +2799,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqw-cnht4a5df</odePageId>
+      <odePageId>page-mmccrlv6-4g8ioovo6</odePageId>
       <odeBlockId>20260223160258VACTKM</odeBlockId>
       <blockName>Tarea Reto 01</blockName>
       <iconName>think</iconName>
@@ -2820,7 +2828,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqw-cnht4a5df</odePageId>
+          <odePageId>page-mmccrlv6-4g8ioovo6</odePageId>
           <odeBlockId>20260223160258VACTKM</odeBlockId>
           <odeIdeviceId>20251111123131ZZSIFE</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2868,8 +2876,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqw-a1wt7ba1u</odePageId>
-  <odeParentPageId>page-mm9h3sqv-igfm75vnr</odeParentPageId>
+  <odePageId>page-mmccrlv6-a5w8cmdd3</odePageId>
+  <odeParentPageId>page-mmccrlv6-jbpfvs914</odeParentPageId>
   <pageName>Reto 02 Dos Leds parpadeantes alternativos. Variables</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -2904,7 +2912,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqw-a1wt7ba1u</odePageId>
+      <odePageId>page-mmccrlv6-a5w8cmdd3</odePageId>
       <odeBlockId>20260223160258DASNXU</odeBlockId>
       <blockName>Variables</blockName>
       <iconName>book</iconName>
@@ -2933,7 +2941,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqw-a1wt7ba1u</odePageId>
+          <odePageId>page-mmccrlv6-a5w8cmdd3</odePageId>
           <odeBlockId>20260223160258DASNXU</odeBlockId>
           <odeIdeviceId>20251111123131LWHUFB</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -2971,7 +2979,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqw-a1wt7ba1u</odePageId>
+      <odePageId>page-mmccrlv6-a5w8cmdd3</odePageId>
       <odeBlockId>20260223160258JMRDUD</odeBlockId>
       <blockName>Tarea Reto 02</blockName>
       <iconName>think</iconName>
@@ -3000,7 +3008,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqw-a1wt7ba1u</odePageId>
+          <odePageId>page-mmccrlv6-a5w8cmdd3</odePageId>
           <odeBlockId>20260223160258JMRDUD</odeBlockId>
           <odeIdeviceId>20251111123131WXBZFW</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -3048,8 +3056,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqw-5e8gzjnq7</odePageId>
-  <odeParentPageId>page-mm9h3sqv-igfm75vnr</odeParentPageId>
+  <odePageId>page-mmccrlv7-vkcgdevt0</odePageId>
+  <odeParentPageId>page-mmccrlv6-jbpfvs914</odeParentPageId>
   <pageName>Reto 03 Repeticiones con leds parpadeantes</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -3084,7 +3092,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqw-5e8gzjnq7</odePageId>
+      <odePageId>page-mmccrlv7-vkcgdevt0</odePageId>
       <odeBlockId>20260223160258QFBRWA</odeBlockId>
       <blockName>Tarea Reto 03</blockName>
       <iconName>think</iconName>
@@ -3113,7 +3121,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqw-5e8gzjnq7</odePageId>
+          <odePageId>page-mmccrlv7-vkcgdevt0</odePageId>
           <odeBlockId>20260223160258QFBRWA</odeBlockId>
           <odeIdeviceId>20251111123131GCFRUR</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -3161,8 +3169,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqx-cb5si0bki</odePageId>
-  <odeParentPageId>page-mm9h3sqv-igfm75vnr</odeParentPageId>
+  <odePageId>page-mmccrlv7-l3jtno9ox</odePageId>
+  <odeParentPageId>page-mmccrlv6-jbpfvs914</odeParentPageId>
   <pageName>Reto 04 Notas musicales (zumbador)</pageName>
   <odeNavStructureOrder>3</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -3197,7 +3205,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqx-cb5si0bki</odePageId>
+      <odePageId>page-mmccrlv7-l3jtno9ox</odePageId>
       <odeBlockId>20260223160258RXWVLW</odeBlockId>
       <blockName>Notas musicales</blockName>
       <iconName>book</iconName>
@@ -3226,7 +3234,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqx-cb5si0bki</odePageId>
+          <odePageId>page-mmccrlv7-l3jtno9ox</odePageId>
           <odeBlockId>20260223160258RXWVLW</odeBlockId>
           <odeIdeviceId>20251111123131GVHINX</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -3314,7 +3322,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqx-cb5si0bki</odePageId>
+      <odePageId>page-mmccrlv7-l3jtno9ox</odePageId>
       <odeBlockId>20260223160258HDMHZW</odeBlockId>
       <blockName>Tarea Reto 04</blockName>
       <iconName>think</iconName>
@@ -3343,7 +3351,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqx-cb5si0bki</odePageId>
+          <odePageId>page-mmccrlv7-l3jtno9ox</odePageId>
           <odeBlockId>20260223160258HDMHZW</odeBlockId>
           <odeIdeviceId>20251111123131XIWQPF</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -3390,8 +3398,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqx-f9vtf64gr</odePageId>
-  <odeParentPageId>page-mm9h3sqv-igfm75vnr</odeParentPageId>
+  <odePageId>page-mmccrlv8-2h3c01dwt</odePageId>
+  <odeParentPageId>page-mmccrlv6-jbpfvs914</odeParentPageId>
   <pageName>Reto 05 Escala con zumbador</pageName>
   <odeNavStructureOrder>4</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -3426,7 +3434,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqx-f9vtf64gr</odePageId>
+      <odePageId>page-mmccrlv8-2h3c01dwt</odePageId>
       <odeBlockId>20260223160258ZFCSJW</odeBlockId>
       <blockName>Tarea Reto 5</blockName>
       <iconName>think</iconName>
@@ -3455,7 +3463,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqx-f9vtf64gr</odePageId>
+          <odePageId>page-mmccrlv8-2h3c01dwt</odePageId>
           <odeBlockId>20260223160258ZFCSJW</odeBlockId>
           <odeIdeviceId>20251111123131GMGCNB</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -3502,8 +3510,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqy-tthjw9wd7</odePageId>
-  <odeParentPageId>page-mm9h3sqv-igfm75vnr</odeParentPageId>
+  <odePageId>page-mmccrlv8-s1t81avcg</odePageId>
+  <odeParentPageId>page-mmccrlv6-jbpfvs914</odeParentPageId>
   <pageName>Reto 06 Melodía con zumbador</pageName>
   <odeNavStructureOrder>5</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -3538,7 +3546,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqy-tthjw9wd7</odePageId>
+      <odePageId>page-mmccrlv8-s1t81avcg</odePageId>
       <odeBlockId>20260223160258VOTGIZ</odeBlockId>
       <blockName>Tarea Reto 6</blockName>
       <iconName>think</iconName>
@@ -3567,7 +3575,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqy-tthjw9wd7</odePageId>
+          <odePageId>page-mmccrlv8-s1t81avcg</odePageId>
           <odeBlockId>20260223160258VOTGIZ</odeBlockId>
           <odeIdeviceId>20251111123131QWXONA</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -3616,8 +3624,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqy-xjd2bx0ot</odePageId>
-  <odeParentPageId>page-mm9h3sqv-igfm75vnr</odeParentPageId>
+  <odePageId>page-mmccrlv9-9s0a1uyi4</odePageId>
+  <odeParentPageId>page-mmccrlv6-jbpfvs914</odeParentPageId>
   <pageName>Reto 07 SOS con zumbador</pageName>
   <odeNavStructureOrder>6</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -3652,7 +3660,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqy-xjd2bx0ot</odePageId>
+      <odePageId>page-mmccrlv9-9s0a1uyi4</odePageId>
       <odeBlockId>20260223160258WQMXTU</odeBlockId>
       <blockName>Funciones</blockName>
       <iconName>book</iconName>
@@ -3681,7 +3689,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqy-xjd2bx0ot</odePageId>
+          <odePageId>page-mmccrlv9-9s0a1uyi4</odePageId>
           <odeBlockId>20260223160258WQMXTU</odeBlockId>
           <odeIdeviceId>20251111123131EPMBFT</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -3713,7 +3721,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqy-xjd2bx0ot</odePageId>
+      <odePageId>page-mmccrlv9-9s0a1uyi4</odePageId>
       <odeBlockId>20260223160258APTLMR</odeBlockId>
       <blockName>Tarea Reto 7</blockName>
       <iconName>think</iconName>
@@ -3742,7 +3750,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqy-xjd2bx0ot</odePageId>
+          <odePageId>page-mmccrlv9-9s0a1uyi4</odePageId>
           <odeBlockId>20260223160258APTLMR</odeBlockId>
           <odeIdeviceId>20251111123131MBQWVK</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -3794,8 +3802,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqy-qg1kcs5xi</odePageId>
-  <odeParentPageId>page-mm9h3sqs-hquhxg46x</odeParentPageId>
+  <odePageId>page-mmccrlv9-wynrv4f3b</odePageId>
+  <odeParentPageId>page-mmccrlv3-dzj2riv85</odeParentPageId>
   <pageName>Entradas digitales. Condicionales</pageName>
   <odeNavStructureOrder>4</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -3838,7 +3846,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqy-qg1kcs5xi</odePageId>
+      <odePageId>page-mmccrlv9-wynrv4f3b</odePageId>
       <odeBlockId>20260223160258JSEHAS</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -3867,7 +3875,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqy-qg1kcs5xi</odePageId>
+          <odePageId>page-mmccrlv9-wynrv4f3b</odePageId>
           <odeBlockId>20260223160258JSEHAS</odeBlockId>
           <odeIdeviceId>20251111123131AEXUXR</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -3925,8 +3933,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sqz-6a1a4m3z4</odePageId>
-  <odeParentPageId>page-mm9h3sqy-qg1kcs5xi</odeParentPageId>
+  <odePageId>page-mmccrlv9-xrebwhz17</odePageId>
+  <odeParentPageId>page-mmccrlv9-wynrv4f3b</odeParentPageId>
   <pageName>Reto 08 Encendido de led con pulsador. Condicionales</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -3961,7 +3969,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sqz-6a1a4m3z4</odePageId>
+      <odePageId>page-mmccrlv9-xrebwhz17</odePageId>
       <odeBlockId>20260223160258YFTWAD</odeBlockId>
       <blockName>Condicionales</blockName>
       <iconName>book</iconName>
@@ -3990,7 +3998,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqz-6a1a4m3z4</odePageId>
+          <odePageId>page-mmccrlv9-xrebwhz17</odePageId>
           <odeBlockId>20260223160258YFTWAD</odeBlockId>
           <odeIdeviceId>20251111123131OGUWCV</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4022,7 +4030,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sqz-6a1a4m3z4</odePageId>
+      <odePageId>page-mmccrlv9-xrebwhz17</odePageId>
       <odeBlockId>20260223160258KSEQXE</odeBlockId>
       <blockName>Tarea Reto 8</blockName>
       <iconName>think</iconName>
@@ -4051,7 +4059,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sqz-6a1a4m3z4</odePageId>
+          <odePageId>page-mmccrlv9-xrebwhz17</odePageId>
           <odeBlockId>20260223160258KSEQXE</odeBlockId>
           <odeIdeviceId>20251111123131XNIKMA</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4101,8 +4109,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr0-qis032i99</odePageId>
-  <odeParentPageId>page-mm9h3sqy-qg1kcs5xi</odeParentPageId>
+  <odePageId>page-mmccrlva-iepymc3du</odePageId>
+  <odeParentPageId>page-mmccrlv9-wynrv4f3b</odeParentPageId>
   <pageName>Reto 09 Encendido y apagado de led con dos pulsadores</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -4137,7 +4145,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr0-qis032i99</odePageId>
+      <odePageId>page-mmccrlva-iepymc3du</odePageId>
       <odeBlockId>20260223160258LGLKFR</odeBlockId>
       <blockName>Tarea Reto 9</blockName>
       <iconName>think</iconName>
@@ -4166,7 +4174,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr0-qis032i99</odePageId>
+          <odePageId>page-mmccrlva-iepymc3du</odePageId>
           <odeBlockId>20260223160258LGLKFR</odeBlockId>
           <odeIdeviceId>20251111123131VJUWAL</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4216,8 +4224,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr1-i4b2icjzo</odePageId>
-  <odeParentPageId>page-mm9h3sqy-qg1kcs5xi</odeParentPageId>
+  <odePageId>page-mmccrlva-s7mjq2s5t</odePageId>
+  <odeParentPageId>page-mmccrlv9-wynrv4f3b</odeParentPageId>
   <pageName>Retos 10 (a,b) Encendido y apagado de led con operadores lógicos</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -4252,7 +4260,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr1-i4b2icjzo</odePageId>
+      <odePageId>page-mmccrlva-s7mjq2s5t</odePageId>
       <odeBlockId>20260223160258SPYQBC</odeBlockId>
       <blockName>Tarea Reto 10a</blockName>
       <iconName>think</iconName>
@@ -4281,7 +4289,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr1-i4b2icjzo</odePageId>
+          <odePageId>page-mmccrlva-s7mjq2s5t</odePageId>
           <odeBlockId>20260223160258SPYQBC</odeBlockId>
           <odeIdeviceId>20251111123131SPIYET</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4326,7 +4334,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sr1-i4b2icjzo</odePageId>
+      <odePageId>page-mmccrlva-s7mjq2s5t</odePageId>
       <odeBlockId>20260223160258GWMKEE</odeBlockId>
       <blockName>Tarea Reto 10b</blockName>
       <iconName>think</iconName>
@@ -4355,7 +4363,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr1-i4b2icjzo</odePageId>
+          <odePageId>page-mmccrlva-s7mjq2s5t</odePageId>
           <odeBlockId>20260223160258GWMKEE</odeBlockId>
           <odeIdeviceId>20251111123131TFDTXD</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4403,8 +4411,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr1-0bq439gs5</odePageId>
-  <odeParentPageId>page-mm9h3sqs-hquhxg46x</odeParentPageId>
+  <odePageId>page-mmccrlvb-8pe4adbig</odePageId>
+  <odeParentPageId>page-mmccrlv3-dzj2riv85</odeParentPageId>
   <pageName>Salidas PWM (analógicas)</pageName>
   <odeNavStructureOrder>5</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -4447,7 +4455,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr1-0bq439gs5</odePageId>
+      <odePageId>page-mmccrlvb-8pe4adbig</odePageId>
       <odeBlockId>20260223160258DZXEPJ</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -4476,7 +4484,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr1-0bq439gs5</odePageId>
+          <odePageId>page-mmccrlvb-8pe4adbig</odePageId>
           <odeBlockId>20260223160258DZXEPJ</odeBlockId>
           <odeIdeviceId>20251111123131LCMXGX</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4530,8 +4538,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr2-9u13qi1pb</odePageId>
-  <odeParentPageId>page-mm9h3sr1-0bq439gs5</odeParentPageId>
+  <odePageId>page-mmccrlvb-v5432yi55</odePageId>
+  <odeParentPageId>page-mmccrlvb-8pe4adbig</odeParentPageId>
   <pageName>Reto 11 Encender led RGB</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -4566,7 +4574,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr2-9u13qi1pb</odePageId>
+      <odePageId>page-mmccrlvb-v5432yi55</odePageId>
       <odeBlockId>20260223160258MYWZSG</odeBlockId>
       <blockName>Led RGB</blockName>
       <iconName>book</iconName>
@@ -4595,7 +4603,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr2-9u13qi1pb</odePageId>
+          <odePageId>page-mmccrlvb-v5432yi55</odePageId>
           <odeBlockId>20260223160258MYWZSG</odeBlockId>
           <odeIdeviceId>20251111123131EENCXV</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4625,7 +4633,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sr2-9u13qi1pb</odePageId>
+      <odePageId>page-mmccrlvb-v5432yi55</odePageId>
       <odeBlockId>20260223160258WHDSDK</odeBlockId>
       <blockName>Tarea Reto 11</blockName>
       <iconName>think</iconName>
@@ -4654,7 +4662,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr2-9u13qi1pb</odePageId>
+          <odePageId>page-mmccrlvb-v5432yi55</odePageId>
           <odeBlockId>20260223160258WHDSDK</odeBlockId>
           <odeIdeviceId>20251111123131JSNDIK</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4701,8 +4709,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr3-rp7xyq7wh</odePageId>
-  <odeParentPageId>page-mm9h3sr1-0bq439gs5</odeParentPageId>
+  <odePageId>page-mmccrlvc-d9ldd27o3</odePageId>
+  <odeParentPageId>page-mmccrlvb-8pe4adbig</odeParentPageId>
   <pageName>Reto 12 Intensidad de led RGB (fade in, fade out)</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -4737,7 +4745,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr3-rp7xyq7wh</odePageId>
+      <odePageId>page-mmccrlvc-d9ldd27o3</odePageId>
       <odeBlockId>20260223160258NONWZF</odeBlockId>
       <blockName>Tarea Reto 12</blockName>
       <iconName>think</iconName>
@@ -4766,7 +4774,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr3-rp7xyq7wh</odePageId>
+          <odePageId>page-mmccrlvc-d9ldd27o3</odePageId>
           <odeBlockId>20260223160258NONWZF</odeBlockId>
           <odeIdeviceId>20251111123131WHMBMG</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4813,8 +4821,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr4-sninnp8vp</odePageId>
-  <odeParentPageId>page-mm9h3sr1-0bq439gs5</odeParentPageId>
+  <odePageId>page-mmccrlvd-qteppst75</odePageId>
+  <odeParentPageId>page-mmccrlvb-8pe4adbig</odeParentPageId>
   <pageName>Reto 13 Intensidad de led RGB con pulsador</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -4849,7 +4857,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr4-sninnp8vp</odePageId>
+      <odePageId>page-mmccrlvd-qteppst75</odePageId>
       <odeBlockId>20260223160258PNRQUQ</odeBlockId>
       <blockName>Tarea Reto 13</blockName>
       <iconName>think</iconName>
@@ -4878,7 +4886,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr4-sninnp8vp</odePageId>
+          <odePageId>page-mmccrlvd-qteppst75</odePageId>
           <odeBlockId>20260223160258PNRQUQ</odeBlockId>
           <odeIdeviceId>20251111123131TEUDSL</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -4926,8 +4934,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr4-xcxko0z2o</odePageId>
-  <odeParentPageId>page-mm9h3sr1-0bq439gs5</odeParentPageId>
+  <odePageId>page-mmccrlve-051ncjpem</odePageId>
+  <odeParentPageId>page-mmccrlvb-8pe4adbig</odeParentPageId>
   <pageName>Reto 14 Color aleatorio con led RGB</pageName>
   <odeNavStructureOrder>3</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -4962,7 +4970,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr4-xcxko0z2o</odePageId>
+      <odePageId>page-mmccrlve-051ncjpem</odePageId>
       <odeBlockId>20260223160258UNWVJP</odeBlockId>
       <blockName>Números aleatorios</blockName>
       <iconName>book</iconName>
@@ -4991,7 +4999,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr4-xcxko0z2o</odePageId>
+          <odePageId>page-mmccrlve-051ncjpem</odePageId>
           <odeBlockId>20260223160258UNWVJP</odeBlockId>
           <odeIdeviceId>20251111123131GYEHNY</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5022,7 +5030,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sr4-xcxko0z2o</odePageId>
+      <odePageId>page-mmccrlve-051ncjpem</odePageId>
       <odeBlockId>20260223160258CERZJW</odeBlockId>
       <blockName>Tarea Reto 14</blockName>
       <iconName>think</iconName>
@@ -5051,7 +5059,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr4-xcxko0z2o</odePageId>
+          <odePageId>page-mmccrlve-051ncjpem</odePageId>
           <odeBlockId>20260223160258CERZJW</odeBlockId>
           <odeIdeviceId>20251111123131BHFUHP</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5103,8 +5111,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr5-wfyioxthm</odePageId>
-  <odeParentPageId>page-mm9h3sqs-hquhxg46x</odeParentPageId>
+  <odePageId>page-mmccrlvf-jcga6298f</odePageId>
+  <odeParentPageId>page-mmccrlv3-dzj2riv85</odeParentPageId>
   <pageName>Entradas analógicas. Comunicación serie</pageName>
   <odeNavStructureOrder>6</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -5147,7 +5155,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr5-wfyioxthm</odePageId>
+      <odePageId>page-mmccrlvf-jcga6298f</odePageId>
       <odeBlockId>20260223160258SSHRZT</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -5176,7 +5184,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr5-wfyioxthm</odePageId>
+          <odePageId>page-mmccrlvf-jcga6298f</odePageId>
           <odeBlockId>20260223160258SSHRZT</odeBlockId>
           <odeIdeviceId>20251111123131IWJLUH</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5247,8 +5255,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr5-gru3qignh</odePageId>
-  <odeParentPageId>page-mm9h3sr5-wfyioxthm</odeParentPageId>
+  <odePageId>page-mmccrlvf-s7lfoahf8</odePageId>
+  <odeParentPageId>page-mmccrlvf-jcga6298f</odeParentPageId>
   <pageName>Reto 15 Interruptor crepuscular por umbral. Comunicación serie</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -5283,7 +5291,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr5-gru3qignh</odePageId>
+      <odePageId>page-mmccrlvf-s7lfoahf8</odePageId>
       <odeBlockId>20260223160258SFRFQI</odeBlockId>
       <blockName>Comunicación serie</blockName>
       <iconName>book</iconName>
@@ -5312,7 +5320,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr5-gru3qignh</odePageId>
+          <odePageId>page-mmccrlvf-s7lfoahf8</odePageId>
           <odeBlockId>20260223160258SFRFQI</odeBlockId>
           <odeIdeviceId>20251111123131XYMGAI</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5343,7 +5351,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sr5-gru3qignh</odePageId>
+      <odePageId>page-mmccrlvf-s7lfoahf8</odePageId>
       <odeBlockId>20260223160258UGMIBE</odeBlockId>
       <blockName>Tarea Reto 15</blockName>
       <iconName>think</iconName>
@@ -5372,7 +5380,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr5-gru3qignh</odePageId>
+          <odePageId>page-mmccrlvf-s7lfoahf8</odePageId>
           <odeBlockId>20260223160258UGMIBE</odeBlockId>
           <odeIdeviceId>20251111123131KMNMXT</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5420,8 +5428,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr6-779q1y2yo</odePageId>
-  <odeParentPageId>page-mm9h3sr5-wfyioxthm</odeParentPageId>
+  <odePageId>page-mmccrlvg-tqy4syls1</odePageId>
+  <odeParentPageId>page-mmccrlvf-jcga6298f</odeParentPageId>
   <pageName>Reto 16 Interruptor crepuscular progresivo</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -5456,7 +5464,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr6-779q1y2yo</odePageId>
+      <odePageId>page-mmccrlvg-tqy4syls1</odePageId>
       <odeBlockId>20260223160258XZOHEV</odeBlockId>
       <blockName>Tarea Reto 16</blockName>
       <iconName>think</iconName>
@@ -5485,7 +5493,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr6-779q1y2yo</odePageId>
+          <odePageId>page-mmccrlvg-tqy4syls1</odePageId>
           <odeBlockId>20260223160258XZOHEV</odeBlockId>
           <odeIdeviceId>20251111123131QVAGRW</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5534,8 +5542,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr6-6exq2hh9i</odePageId>
-  <odeParentPageId>page-mm9h3sr5-wfyioxthm</odeParentPageId>
+  <odePageId>page-mmccrlvg-8k0auatnc</odePageId>
+  <odeParentPageId>page-mmccrlvf-jcga6298f</odeParentPageId>
   <pageName>Reto 17 Control de leds con potenciómetro</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -5570,7 +5578,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr6-6exq2hh9i</odePageId>
+      <odePageId>page-mmccrlvg-8k0auatnc</odePageId>
       <odeBlockId>20260223160258IZQWIE</odeBlockId>
       <blockName>Tarea Reto 17</blockName>
       <iconName>think</iconName>
@@ -5599,7 +5607,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr6-6exq2hh9i</odePageId>
+          <odePageId>page-mmccrlvg-8k0auatnc</odePageId>
           <odeBlockId>20260223160258IZQWIE</odeBlockId>
           <odeIdeviceId>20251111123131LCANNI</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5647,8 +5655,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr7-zet1f5azk</odePageId>
-  <odeParentPageId>page-mm9h3sr5-wfyioxthm</odeParentPageId>
+  <odePageId>page-mmccrlvh-8tllvotfk</odePageId>
+  <odeParentPageId>page-mmccrlvf-jcga6298f</odeParentPageId>
   <pageName>Reto 18 Potenciómetro y led RGB</pageName>
   <odeNavStructureOrder>3</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -5683,7 +5691,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr7-zet1f5azk</odePageId>
+      <odePageId>page-mmccrlvh-8tllvotfk</odePageId>
       <odeBlockId>20260223160258TIQRAR</odeBlockId>
       <blockName>Tarea Reto 18</blockName>
       <iconName>think</iconName>
@@ -5712,7 +5720,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr7-zet1f5azk</odePageId>
+          <odePageId>page-mmccrlvh-8tllvotfk</odePageId>
           <odeBlockId>20260223160258TIQRAR</odeBlockId>
           <odeIdeviceId>20251111123131AISEOP</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5761,8 +5769,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr7-wso7lvpto</odePageId>
-  <odeParentPageId>page-mm9h3sqs-hquhxg46x</odeParentPageId>
+  <odePageId>page-mmccrlvh-oy1q9ipdj</odePageId>
+  <odeParentPageId>page-mmccrlv3-dzj2riv85</odeParentPageId>
   <pageName>Pantalla LCD, LM35 y DHT11</pageName>
   <odeNavStructureOrder>7</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -5805,7 +5813,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr7-wso7lvpto</odePageId>
+      <odePageId>page-mmccrlvh-oy1q9ipdj</odePageId>
       <odeBlockId>20260223160258PJSRGL</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -5834,7 +5842,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr7-wso7lvpto</odePageId>
+          <odePageId>page-mmccrlvh-oy1q9ipdj</odePageId>
           <odeBlockId>20260223160258PJSRGL</odeBlockId>
           <odeIdeviceId>20251111123131QHUANS</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5867,8 +5875,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr8-q1ppko61j</odePageId>
-  <odeParentPageId>page-mm9h3sr7-wso7lvpto</odeParentPageId>
+  <odePageId>page-mmccrlvh-86xp24fl7</odePageId>
+  <odeParentPageId>page-mmccrlvh-oy1q9ipdj</odeParentPageId>
   <pageName>Reto 19 Control de turno. Pulsadores y LCD</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -5903,7 +5911,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr8-q1ppko61j</odePageId>
+      <odePageId>page-mmccrlvh-86xp24fl7</odePageId>
       <odeBlockId>20260223160258GRUTCM</odeBlockId>
       <blockName>Pantalla LCD</blockName>
       <iconName>book</iconName>
@@ -5932,7 +5940,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr8-q1ppko61j</odePageId>
+          <odePageId>page-mmccrlvh-86xp24fl7</odePageId>
           <odeBlockId>20260223160258GRUTCM</odeBlockId>
           <odeIdeviceId>20251111123131EGNIJW</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -5965,7 +5973,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sr8-q1ppko61j</odePageId>
+      <odePageId>page-mmccrlvh-86xp24fl7</odePageId>
       <odeBlockId>20260223160258DDTXCO</odeBlockId>
       <blockName>Tarea Reto 19</blockName>
       <iconName>think</iconName>
@@ -5994,7 +6002,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr8-q1ppko61j</odePageId>
+          <odePageId>page-mmccrlvh-86xp24fl7</odePageId>
           <odeBlockId>20260223160258DDTXCO</odeBlockId>
           <odeIdeviceId>20251111123131SSJOFT</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6043,8 +6051,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr8-9v38e20fh</odePageId>
-  <odeParentPageId>page-mm9h3sr7-wso7lvpto</odeParentPageId>
+  <odePageId>page-mmccrlvi-y82sg8xci</odePageId>
+  <odeParentPageId>page-mmccrlvh-oy1q9ipdj</odeParentPageId>
   <pageName>Reto 20 Scroll de texto</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -6079,7 +6087,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr8-9v38e20fh</odePageId>
+      <odePageId>page-mmccrlvi-y82sg8xci</odePageId>
       <odeBlockId>20260223160258HLHYDI</odeBlockId>
       <blockName>Tarea Reto 20</blockName>
       <iconName>think</iconName>
@@ -6108,7 +6116,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr8-9v38e20fh</odePageId>
+          <odePageId>page-mmccrlvi-y82sg8xci</odePageId>
           <odeBlockId>20260223160258HLHYDI</odeBlockId>
           <odeIdeviceId>20251111123131PRWCWW</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6155,8 +6163,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr9-awoq5gypw</odePageId>
-  <odeParentPageId>page-mm9h3sr7-wso7lvpto</odeParentPageId>
+  <odePageId>page-mmccrlvi-l9nvetvgy</odePageId>
+  <odeParentPageId>page-mmccrlvh-oy1q9ipdj</odeParentPageId>
   <pageName>Reto 21 Temperatura con LM35</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -6191,7 +6199,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr9-awoq5gypw</odePageId>
+      <odePageId>page-mmccrlvi-l9nvetvgy</odePageId>
       <odeBlockId>20260223160258VFXMIB</odeBlockId>
       <blockName>LM35 en TDR-Steam</blockName>
       <iconName>book</iconName>
@@ -6220,7 +6228,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr9-awoq5gypw</odePageId>
+          <odePageId>page-mmccrlvi-l9nvetvgy</odePageId>
           <odeBlockId>20260223160258VFXMIB</odeBlockId>
           <odeIdeviceId>20251115063254MLGPKW</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6265,7 +6273,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sr9-awoq5gypw</odePageId>
+      <odePageId>page-mmccrlvi-l9nvetvgy</odePageId>
       <odeBlockId>20260223160258OVFVOS</odeBlockId>
       <blockName>Para saber más de LM35</blockName>
       <iconName>book</iconName>
@@ -6294,7 +6302,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr9-awoq5gypw</odePageId>
+          <odePageId>page-mmccrlvi-l9nvetvgy</odePageId>
           <odeBlockId>20260223160258OVFVOS</odeBlockId>
           <odeIdeviceId>20251111123131ZPAXFV</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6327,7 +6335,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sr9-awoq5gypw</odePageId>
+      <odePageId>page-mmccrlvi-l9nvetvgy</odePageId>
       <odeBlockId>20260223160258JIOHAC</odeBlockId>
       <blockName>Tarea Reto 21</blockName>
       <iconName>think</iconName>
@@ -6356,7 +6364,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr9-awoq5gypw</odePageId>
+          <odePageId>page-mmccrlvi-l9nvetvgy</odePageId>
           <odeBlockId>20260223160258JIOHAC</odeBlockId>
           <odeIdeviceId>20251111123131NBIWIW</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6404,8 +6412,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sr9-j9hz7jl07</odePageId>
-  <odeParentPageId>page-mm9h3sr7-wso7lvpto</odeParentPageId>
+  <odePageId>page-mmccrlvj-91br617yc</odePageId>
+  <odeParentPageId>page-mmccrlvh-oy1q9ipdj</odeParentPageId>
   <pageName>Reto 22 Temperatura y humedad con DHT11</pageName>
   <odeNavStructureOrder>3</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -6448,7 +6456,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sr9-j9hz7jl07</odePageId>
+      <odePageId>page-mmccrlvj-91br617yc</odePageId>
       <odeBlockId>20260223160258AHAIOB</odeBlockId>
       <blockName>DHT11 en TDR-Steam</blockName>
       <iconName>book</iconName>
@@ -6477,7 +6485,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr9-j9hz7jl07</odePageId>
+          <odePageId>page-mmccrlvj-91br617yc</odePageId>
           <odeBlockId>20260223160258AHAIOB</odeBlockId>
           <odeIdeviceId>20251115064745MKPXBF</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6522,7 +6530,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sr9-j9hz7jl07</odePageId>
+      <odePageId>page-mmccrlvj-91br617yc</odePageId>
       <odeBlockId>20260223160258JVQTXH</odeBlockId>
       <blockName>Para saber más de DHT11</blockName>
       <iconName>book</iconName>
@@ -6551,7 +6559,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr9-j9hz7jl07</odePageId>
+          <odePageId>page-mmccrlvj-91br617yc</odePageId>
           <odeBlockId>20260223160258JVQTXH</odeBlockId>
           <odeIdeviceId>20251111123131GYEKVT</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6589,7 +6597,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sr9-j9hz7jl07</odePageId>
+      <odePageId>page-mmccrlvj-91br617yc</odePageId>
       <odeBlockId>20260223160258BLNGDC</odeBlockId>
       <blockName>Tarea Reto 22</blockName>
       <iconName>think</iconName>
@@ -6618,7 +6626,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sr9-j9hz7jl07</odePageId>
+          <odePageId>page-mmccrlvj-91br617yc</odePageId>
           <odeBlockId>20260223160258BLNGDC</odeBlockId>
           <odeIdeviceId>20251111123131UQMLTA</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6665,8 +6673,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sra-z1i4twkna</odePageId>
-  <odeParentPageId>page-mm9h3sqs-hquhxg46x</odeParentPageId>
+  <odePageId>page-mmccrlvj-w3i8ovlmq</odePageId>
+  <odeParentPageId>page-mmccrlv3-dzj2riv85</odeParentPageId>
   <pageName>IoT y microblocks</pageName>
   <odeNavStructureOrder>8</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -6709,7 +6717,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sra-z1i4twkna</odePageId>
+      <odePageId>page-mmccrlvj-w3i8ovlmq</odePageId>
       <odeBlockId>20260223160258AHWYCJ</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -6738,7 +6746,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sra-z1i4twkna</odePageId>
+          <odePageId>page-mmccrlvj-w3i8ovlmq</odePageId>
           <odeBlockId>20260223160258AHWYCJ</odeBlockId>
           <odeIdeviceId>20251204113734FPAICT</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6771,8 +6779,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3sra-mebvsrdwp</odePageId>
-  <odeParentPageId>page-mm9h3sra-z1i4twkna</odeParentPageId>
+  <odePageId>page-mmccrlvk-fpqf7iam5</odePageId>
+  <odeParentPageId>page-mmccrlvj-w3i8ovlmq</odeParentPageId>
   <pageName>Servidor MQTT</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -6807,7 +6815,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3sra-mebvsrdwp</odePageId>
+      <odePageId>page-mmccrlvk-fpqf7iam5</odePageId>
       <odeBlockId>20260223160258AAQYRS</odeBlockId>
       <blockName>MQTT</blockName>
       <iconName>book</iconName>
@@ -6836,7 +6844,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sra-mebvsrdwp</odePageId>
+          <odePageId>page-mmccrlvk-fpqf7iam5</odePageId>
           <odeBlockId>20260223160258AAQYRS</odeBlockId>
           <odeIdeviceId>20251204113734SBRCCP</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6862,7 +6870,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sra-mebvsrdwp</odePageId>
+      <odePageId>page-mmccrlvk-fpqf7iam5</odePageId>
       <odeBlockId>20260223160258KYDGWS</odeBlockId>
       <blockName>Brokers (servidores) funcionales (ya montados)</blockName>
       <iconName>book</iconName>
@@ -6891,7 +6899,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sra-mebvsrdwp</odePageId>
+          <odePageId>page-mmccrlvk-fpqf7iam5</odePageId>
           <odeBlockId>20260223160258KYDGWS</odeBlockId>
           <odeIdeviceId>20260110162606521LQA</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -6922,7 +6930,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sra-mebvsrdwp</odePageId>
+      <odePageId>page-mmccrlvk-fpqf7iam5</odePageId>
       <odeBlockId>20260223160258ECRXKD</odeBlockId>
       <blockName>Montaje de servidor o broker MQTT</blockName>
       <iconName>book</iconName>
@@ -6951,7 +6959,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sra-mebvsrdwp</odePageId>
+          <odePageId>page-mmccrlvk-fpqf7iam5</odePageId>
           <odeBlockId>20260223160258ECRXKD</odeBlockId>
           <odeIdeviceId>20251204113734ULCSOF</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -7014,7 +7022,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3sra-mebvsrdwp</odePageId>
+      <odePageId>page-mmccrlvk-fpqf7iam5</odePageId>
       <odeBlockId>20260223160258JOGTBW</odeBlockId>
       <blockName>Configuración en router</blockName>
       <iconName>book</iconName>
@@ -7043,7 +7051,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3sra-mebvsrdwp</odePageId>
+          <odePageId>page-mmccrlvk-fpqf7iam5</odePageId>
           <odeBlockId>20260223160258JOGTBW</odeBlockId>
           <odeIdeviceId>20251204113734HPRINT</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -7080,8 +7088,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3srb-hf166mag0</odePageId>
-  <odeParentPageId>page-mm9h3sra-mebvsrdwp</odeParentPageId>
+  <odePageId>page-mmccrlvk-7j5st04i0</odePageId>
+  <odeParentPageId>page-mmccrlvk-fpqf7iam5</odeParentPageId>
   <pageName>Programa IoT en la placa</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -7124,7 +7132,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3srb-hf166mag0</odePageId>
+      <odePageId>page-mmccrlvk-7j5st04i0</odePageId>
       <odeBlockId>20260223160258UYTOBA</odeBlockId>
       <blockName>Programa</blockName>
       <iconName>book</iconName>
@@ -7153,7 +7161,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3srb-hf166mag0</odePageId>
+          <odePageId>page-mmccrlvk-7j5st04i0</odePageId>
           <odeBlockId>20260223160258UYTOBA</odeBlockId>
           <odeIdeviceId>20251204113734NLEFIR</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -7186,8 +7194,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3srb-pn7dn3x7j</odePageId>
-  <odeParentPageId>page-mm9h3sra-mebvsrdwp</odeParentPageId>
+  <odePageId>page-mmccrlvl-jjsawlfod</odePageId>
+  <odeParentPageId>page-mmccrlvk-fpqf7iam5</odeParentPageId>
   <pageName>Paneles o dashboards</pageName>
   <odeNavStructureOrder>1</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -7230,7 +7238,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3srb-pn7dn3x7j</odePageId>
+      <odePageId>page-mmccrlvl-jjsawlfod</odePageId>
       <odeBlockId>20260223160258QFZFRH</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -7259,7 +7267,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3srb-pn7dn3x7j</odePageId>
+          <odePageId>page-mmccrlvl-jjsawlfod</odePageId>
           <odeBlockId>20260223160258QFZFRH</odeBlockId>
           <odeIdeviceId>20251204113734DQOBSR</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -7284,7 +7292,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3srb-pn7dn3x7j</odePageId>
+      <odePageId>page-mmccrlvl-jjsawlfod</odePageId>
       <odeBlockId>20260223160258FIJEXV</odeBlockId>
       <blockName>Pará dispositivos móviles</blockName>
       <iconName>book</iconName>
@@ -7313,7 +7321,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3srb-pn7dn3x7j</odePageId>
+          <odePageId>page-mmccrlvl-jjsawlfod</odePageId>
           <odeBlockId>20260223160258FIJEXV</odeBlockId>
           <odeIdeviceId>20251204113734IQILAO</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -7342,7 +7350,7 @@
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-mm9h3srb-pn7dn3x7j</odePageId>
+      <odePageId>page-mmccrlvl-jjsawlfod</odePageId>
       <odeBlockId>20260223160258CJOMOW</odeBlockId>
       <blockName>Paneles webs</blockName>
       <iconName>book</iconName>
@@ -7371,7 +7379,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3srb-pn7dn3x7j</odePageId>
+          <odePageId>page-mmccrlvl-jjsawlfod</odePageId>
           <odeBlockId>20260223160258CJOMOW</odeBlockId>
           <odeIdeviceId>20251204113734BYQMJD</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -7411,8 +7419,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3srb-w70bvn7ia</odePageId>
-  <odeParentPageId>page-mm9h3sql-w84v568q0</odeParentPageId>
+  <odePageId>page-mmccrlvl-q91v4muwg</odePageId>
+  <odeParentPageId>page-mmccrluv-6qqh4g80v</odeParentPageId>
   <pageName>Programas</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -7447,7 +7455,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3srb-w70bvn7ia</odePageId>
+      <odePageId>page-mmccrlvl-q91v4muwg</odePageId>
       <odeBlockId>block-1772131537283-1bc1tq6du</odeBlockId>
       <blockName>Carpeta con todos los programas</blockName>
       <iconName>book</iconName>
@@ -7476,7 +7484,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3srb-w70bvn7ia</odePageId>
+          <odePageId>page-mmccrlvl-q91v4muwg</odePageId>
           <odeBlockId>block-1772131537283-1bc1tq6du</odeBlockId>
           <odeIdeviceId>idevice-1772131537277-2t0x6dosn</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -7505,8 +7513,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3src-y2kro9zz0</odePageId>
-  <odeParentPageId>page-mm9h3sql-w84v568q0</odeParentPageId>
+  <odePageId>page-mmccrlvm-53bts7atp</odePageId>
+  <odeParentPageId>page-mmccrluv-6qqh4g80v</odeParentPageId>
   <pageName>Para saber más</pageName>
   <odeNavStructureOrder>3</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -7549,7 +7557,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3src-y2kro9zz0</odePageId>
+      <odePageId>page-mmccrlvm-53bts7atp</odePageId>
       <odeBlockId>20260223160258EELBFL</odeBlockId>
       <blockName></blockName>
       <iconName>book</iconName>
@@ -7578,7 +7586,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3src-y2kro9zz0</odePageId>
+          <odePageId>page-mmccrlvm-53bts7atp</odePageId>
           <odeBlockId>20260223160258EELBFL</odeBlockId>
           <odeIdeviceId>20251111123131NFUGAL</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -7615,8 +7623,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-mm9h3src-cvz9ku33j</odePageId>
-  <odeParentPageId>page-mm9h3sql-w84v568q0</odeParentPageId>
+  <odePageId>page-mmccrlvm-rezozeggs</odePageId>
+  <odeParentPageId>page-mmccrluv-6qqh4g80v</odeParentPageId>
   <pageName>Fuentes</pageName>
   <odeNavStructureOrder>4</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -7659,7 +7667,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-mm9h3src-cvz9ku33j</odePageId>
+      <odePageId>page-mmccrlvm-rezozeggs</odePageId>
       <odeBlockId>20260223160258ZTBPNS</odeBlockId>
       <blockName>Fuentes</blockName>
       <iconName>book</iconName>
@@ -7688,7 +7696,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-mm9h3src-cvz9ku33j</odePageId>
+          <odePageId>page-mmccrlvm-rezozeggs</odePageId>
           <odeBlockId>20260223160258ZTBPNS</odeBlockId>
           <odeIdeviceId>20251111123131EOQJWK</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
