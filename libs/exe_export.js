@@ -403,7 +403,7 @@ window.$exeExport = {
                 });
             }
         });
-        $('article.box .box-head').css('cursor', 'pointer').on('click', function(e){
+        $('article.box .box-head').has('.box-toggle').css('cursor', 'pointer').on('click', function(e){
             let t = $(e.target);
             if (t.hasClass('box-toggle')) return false;
             $('.box-toggle', this).trigger('click');
@@ -651,6 +651,7 @@ $exeExport.searchBar = {
             boxCounter ++;
         }
         var localBoxOrder = 0;
+        var pageLinked = false;
         for (x in boxes) {
             localBoxOrder++;
             var box = boxes[x];
@@ -678,11 +679,18 @@ $exeExport.searchBar = {
                 let lnk = this.getLink(node.fileUrl);
                 var blockLabel = (typeof $exe_i18n !== 'undefined' && $exe_i18n.block) ? $exe_i18n.block : 'block';
                 if (fullLink) {
-                    if (this.deepLinking) lnk += '#' + x;
-                    lnk = this.addSearchParam(lnk);
-                    let displayTitle = this.markText(nodeTitle, str);
-                    res += '<li><a href="' + lnk+ '">' + displayTitle + '</a>';
-                    if (boxCounter > 1) res += '<span> (' + blockLabel + ' ' + boxOrder + ')</span></li>';
+                    if (this.deepLinking) {
+                        lnk += '#' + x;
+                        lnk = this.addSearchParam(lnk);
+                        let displayTitle = this.markText(nodeTitle, str);
+                        res += '<li><a href="' + lnk+ '">' + displayTitle + '</a>';
+                        if (boxCounter > 1) res += '<span> (' + blockLabel + ' ' + boxOrder + ')</span></li>';
+                    } else if (!pageLinked) {
+                        lnk = this.addSearchParam(lnk);
+                        let displayTitle = this.markText(nodeTitle, str);
+                        res += '<li><a href="' + lnk+ '">' + displayTitle + '</a></li>';
+                        pageLinked = true;
+                    }
                 }
                 else {
                     var blockLnk = lnk +'#' + x;
